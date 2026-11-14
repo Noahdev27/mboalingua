@@ -1,0 +1,361 @@
+{
+  "ewo": {
+    "vous avez fini de rembourser votre crédit.": {
+      "source": "Vous avez fini de rembourser votre crédit.",
+      "file": "audio/ewo/voice-001.webm"
+    },
+    "vous avez déposé 10 000 francs.": {
+      "source": "Vous avez déposé 10 000 francs.",
+      "file": "audio/ewo/voice-002.webm"
+    },
+    "ne donnez pas votre téléphone à un inconnu.": {
+      "source": "Ne donnez pas votre téléphone à un inconnu.",
+      "file": "audio/ewo/voice-003.webm"
+    },
+    "le transfert est confirmé.": {
+      "source": "Le transfert est confirmé.",
+      "file": "audio/ewo/voice-004.webm"
+    },
+    "vous pouvez déposer de l'argent à tout moment.": {
+      "source": "Vous pouvez déposer de l'argent à tout moment.",
+      "file": "audio/ewo/voice-005.webm"
+    },
+    "votre crédit n'a pas été accepté pour le moment.": {
+      "source": "Votre crédit n'a pas été accepté pour le moment.",
+      "file": "audio/ewo/voice-006.webm"
+    },
+    "cachez votre code quand vous le tapez.": {
+      "source": "Cachez votre code quand vous le tapez.",
+      "file": "audio/ewo/voice-007.webm"
+    },
+    "vous avez changé votre code secret.": {
+      "source": "Vous avez changé votre code secret.",
+      "file": "audio/ewo/voice-008.webm"
+    },
+    "chaque mois, vous rembourserez 20 000 francs.": {
+      "source": "Chaque mois, vous rembourserez 20 000 francs.",
+      "file": "audio/ewo/voice-009.webm"
+    },
+    "avez-vous votre pièce d'identité ?": {
+      "source": "Avez-vous votre pièce d'identité ?",
+      "file": "audio/ewo/voice-010.webm"
+    },
+    "il vous reste 8 000 francs sur votre compte.": {
+      "source": "Il vous reste 8 000 francs sur votre compte.",
+      "file": "audio/ewo/voice-011.webm"
+    },
+    "il vous reste 40 000 francs à rembourser.": {
+      "source": "Il vous reste 40 000 francs à rembourser.",
+      "file": "audio/ewo/voice-012.webm"
+    },
+    "vous envoyez de l'argent à marie.": {
+      "source": "Vous envoyez de l'argent à Marie.",
+      "file": "audio/ewo/voice-013.webm"
+    },
+    "vous devez payer avant le quinze du mois.": {
+      "source": "Vous devez payer avant le quinze du mois.",
+      "file": "audio/ewo/voice-014.webm"
+    },
+    "nous sommes désolés pour ce retard.": {
+      "source": "Nous sommes désolés pour ce retard.",
+      "file": "audio/ewo/voice-015.webm"
+    },
+    "voulez-vous écouter votre solde encore une fois ?": {
+      "source": "Voulez-vous écouter votre solde encore une fois ?",
+      "file": "audio/ewo/voice-016.webm"
+    },
+    "vous allez envoyer 25 000 francs à paul.": {
+      "source": "Vous allez envoyer 25 000 francs à Paul.",
+      "file": "audio/ewo/voice-017.webm"
+    },
+    "appuyez sur deux pour voir votre solde.": {
+      "source": "Appuyez sur deux pour voir votre solde.",
+      "file": "audio/ewo/voice-018.webm"
+    },
+    "n'écrivez pas votre code sur votre téléphone.": {
+      "source": "N'écrivez pas votre code sur votre téléphone.",
+      "file": "audio/ewo/voice-019.webm"
+    },
+    "bienvenue chez nous.": {
+      "source": "Bienvenue chez nous.",
+      "file": "audio/ewo/voice-020.webm"
+    },
+    "vous avez reçu 5 000 francs sur votre compte.": {
+      "source": "Vous avez reçu 5 000 francs sur votre compte.",
+      "file": "audio/ewo/voice-021.webm"
+    },
+    "à bientôt.": {
+      "source": "À bientôt.",
+      "file": "audio/ewo/voice-022.webm"
+    },
+    "vous devez rembourser 110 000 francs.": {
+      "source": "Vous devez rembourser 110 000 francs.",
+      "file": "audio/ewo/voice-023.webm"
+    },
+    "bonjour, bienvenue sur votre compte.": {
+      "source": "Bonjour, bienvenue sur votre compte.",
+      "file": "audio/ewo/voice-024.webm"
+    },
+    "ne vous inquiétez pas, votre argent est en sécurité.": {
+      "source": "Ne vous inquiétez pas, votre argent est en sécurité.",
+      "file": "audio/ewo/voice-025.webm"
+    },
+    "choisissez un code que personne ne peut deviner.": {
+      "source": "Choisissez un code que personne ne peut deviner.",
+      "file": "audio/ewo/voice-026.webm"
+    },
+    "un inconnu vous demande d'envoyer de l'argent ? ne le faites pas.": {
+      "source": "Un inconnu vous demande d'envoyer de l'argent ? Ne le faites pas.",
+      "file": "audio/ewo/voice-027.webm"
+    },
+    "les frais de retrait sont de 300 francs.": {
+      "source": "Les frais de retrait sont de 300 francs.",
+      "file": "audio/ewo/voice-028.webm"
+    },
+    "votre solde est insuffisant pour cette opération.": {
+      "source": "Votre solde est insuffisant pour cette opération.",
+      "file": "audio/ewo/voice-029.webm"
+    },
+    "votre retrait a bien été effectué.": {
+      "source": "Votre retrait a bien été effectué.",
+      "file": "audio/ewo/voice-030.webm"
+    },
+    "ce numéro n'appartient pas à votre banque.": {
+      "source": "Ce numéro n'appartient pas à votre banque.",
+      "file": "audio/ewo/voice-031.webm"
+    },
+    "voulez-vous payer votre facture d'eau ?": {
+      "source": "Voulez-vous payer votre facture d'eau ?",
+      "file": "audio/ewo/voice-032.webm"
+    },
+    "vous avez déjà envoyé cet argent aujourd'hui.": {
+      "source": "Vous avez déjà envoyé cet argent aujourd'hui.",
+      "file": "audio/ewo/voice-033.webm"
+    },
+    "êtes-vous sûr de vouloir envoyer cet argent ?": {
+      "source": "Êtes-vous sûr de vouloir envoyer cet argent ?",
+      "file": "audio/ewo/voice-034.webm"
+    },
+    "bonne journée à vous.": {
+      "source": "Bonne journée à vous.",
+      "file": "audio/ewo/voice-035.webm"
+    },
+    "veuillez signer ici.": {
+      "source": "Veuillez signer ici.",
+      "file": "audio/ewo/voice-036.webm"
+    },
+    "nous sommes ouverts du lundi au samedi.": {
+      "source": "Nous sommes ouverts du lundi au samedi.",
+      "file": "audio/ewo/voice-037.webm"
+    },
+    "pour écouter ce message encore une fois, appuyez sur sept.": {
+      "source": "Pour écouter ce message encore une fois, appuyez sur sept.",
+      "file": "audio/ewo/voice-038.webm"
+    },
+    "bonjour, comment puis-je vous aider ?": {
+      "source": "Bonjour, comment puis-je vous aider ?",
+      "file": "audio/ewo/voice-039.webm"
+    },
+    "acceptez-vous de payer ces frais ?": {
+      "source": "Acceptez-vous de payer ces frais ?",
+      "file": "audio/ewo/voice-040.webm"
+    },
+    "tapez votre code secret.": {
+      "source": "Tapez votre code secret.",
+      "file": "audio/ewo/voice-041.webm"
+    },
+    "vous avez reçu 7 500 francs de la part de jean.": {
+      "source": "Vous avez reçu 7 500 francs de la part de Jean.",
+      "file": "audio/ewo/voice-042.webm"
+    }
+  },
+  "fub": {
+    "voulez-vous imprimer un reçu ?": {
+      "source": "Voulez-vous imprimer un reçu ?",
+      "file": "audio/fub/voice-001.webm"
+    },
+    "les frais de tenue de compte sont de 1 000 francs par mois.": {
+      "source": "Les frais de tenue de compte sont de 1 000 francs par mois.",
+      "file": "audio/fub/voice-002.webm"
+    },
+    "l'argent sera disponible dans quelques secondes.": {
+      "source": "L'argent sera disponible dans quelques secondes.",
+      "file": "audio/fub/voice-003.webm"
+    },
+    "cachez votre code quand vous le tapez.": {
+      "source": "Cachez votre code quand vous le tapez.",
+      "file": "audio/fub/voice-004.webm"
+    },
+    "l'ouverture du compte est gratuite.": {
+      "source": "L'ouverture du compte est gratuite.",
+      "file": "audio/fub/voice-005.webm"
+    },
+    "à bientôt.": {
+      "source": "À bientôt.",
+      "file": "audio/fub/voice-006.webm"
+    },
+    "vérifiez le nom du destinataire sur l'écran.": {
+      "source": "Vérifiez le nom du destinataire sur l'écran.",
+      "file": "audio/fub/voice-007.webm"
+    },
+    "vous allez payer 500 francs de frais.": {
+      "source": "Vous allez payer 500 francs de frais.",
+      "file": "audio/fub/voice-008.webm"
+    },
+    "les frais seront retirés de votre compte.": {
+      "source": "Les frais seront retirés de votre compte.",
+      "file": "audio/fub/voice-009.webm"
+    },
+    "tapez votre choix, puis appuyez sur valider.": {
+      "source": "Tapez votre choix, puis appuyez sur valider.",
+      "file": "audio/fub/voice-010.webm"
+    },
+    "rendez-vous chez un agent pour retirer votre argent.": {
+      "source": "Rendez-vous chez un agent pour retirer votre argent.",
+      "file": "audio/fub/voice-011.webm"
+    },
+    "ne partagez jamais le message de confirmation reçu par sms.": {
+      "source": "Ne partagez jamais le message de confirmation reçu par SMS.",
+      "file": "audio/fub/voice-012.webm"
+    },
+    "quelqu'un a essayé d'entrer dans votre compte.": {
+      "source": "Quelqu'un a essayé d'entrer dans votre compte.",
+      "file": "audio/fub/voice-013.webm"
+    },
+    "voici les dernières opérations de votre compte.": {
+      "source": "Voici les dernières opérations de votre compte.",
+      "file": "audio/fub/voice-014.webm"
+    },
+    "appuyez sur deux pour voir votre solde.": {
+      "source": "Appuyez sur deux pour voir votre solde.",
+      "file": "audio/fub/voice-015.webm"
+    },
+    "les frais de cette opération sont de 200 francs.": {
+      "source": "Les frais de cette opération sont de 200 francs.",
+      "file": "audio/fub/voice-016.webm"
+    },
+    "un transfert ne peut pas être annulé après confirmation.": {
+      "source": "Un transfert ne peut pas être annulé après confirmation.",
+      "file": "audio/fub/voice-017.webm"
+    },
+    "votre carte sera prête dans trois jours.": {
+      "source": "Votre carte sera prête dans trois jours.",
+      "file": "audio/fub/voice-018.webm"
+    },
+    "votre crédit a été accepté.": {
+      "source": "Votre crédit a été accepté.",
+      "file": "audio/fub/voice-019.webm"
+    },
+    "voulez-vous que je répète ?": {
+      "source": "Voulez-vous que je répète ?",
+      "file": "audio/fub/voice-020.webm"
+    },
+    "vous avez déjà envoyé cet argent aujourd'hui.": {
+      "source": "Vous avez déjà envoyé cet argent aujourd'hui.",
+      "file": "audio/fub/voice-021.webm"
+    },
+    "n'écrivez pas votre code sur votre téléphone.": {
+      "source": "N'écrivez pas votre code sur votre téléphone.",
+      "file": "audio/fub/voice-022.webm"
+    },
+    "un conseiller va vous appeler.": {
+      "source": "Un conseiller va vous appeler.",
+      "file": "audio/fub/voice-023.webm"
+    },
+    "vérifiez le numéro avant de confirmer.": {
+      "source": "Vérifiez le numéro avant de confirmer.",
+      "file": "audio/fub/voice-024.webm"
+    },
+    "entrez le numéro de la personne qui doit recevoir l'argent.": {
+      "source": "Entrez le numéro de la personne qui doit recevoir l'argent.",
+      "file": "audio/fub/voice-025.webm"
+    },
+    "votre relevé de compte est prêt.": {
+      "source": "Votre relevé de compte est prêt.",
+      "file": "audio/fub/voice-026.webm"
+    },
+    "votre solde est de 12 500 francs.": {
+      "source": "Votre solde est de 12 500 francs.",
+      "file": "audio/fub/voice-027.webm"
+    },
+    "si ce n'est pas vous, appelez-nous maintenant.": {
+      "source": "Si ce n'est pas vous, appelez-nous maintenant.",
+      "file": "audio/fub/voice-028.webm"
+    },
+    "personne ne doit vous demander votre code secret.": {
+      "source": "Personne ne doit vous demander votre code secret.",
+      "file": "audio/fub/voice-029.webm"
+    },
+    "vous avez dépassé la limite de retrait.": {
+      "source": "Vous avez dépassé la limite de retrait.",
+      "file": "audio/fub/voice-030.webm"
+    },
+    "merci pour votre dépôt.": {
+      "source": "Merci pour votre dépôt.",
+      "file": "audio/fub/voice-031.webm"
+    },
+    "vous avez retiré 15 000 francs.": {
+      "source": "Vous avez retiré 15 000 francs.",
+      "file": "audio/fub/voice-032.webm"
+    },
+    "pour parler à un conseiller, appuyez sur neuf.": {
+      "source": "Pour parler à un conseiller, appuyez sur neuf.",
+      "file": "audio/fub/voice-033.webm"
+    },
+    "le montant maximum par envoi est de 500 000 francs.": {
+      "source": "Le montant maximum par envoi est de 500 000 francs.",
+      "file": "audio/fub/voice-034.webm"
+    },
+    "la banque ne vous demandera jamais votre code par téléphone.": {
+      "source": "La banque ne vous demandera jamais votre code par téléphone.",
+      "file": "audio/fub/voice-035.webm"
+    },
+    "attention, ce message est peut-être une arnaque. ne répondez pas.": {
+      "source": "Attention, ce message est peut-être une arnaque. Ne répondez pas.",
+      "file": "audio/fub/voice-036.webm"
+    },
+    "vous pouvez déposer de l'argent à tout moment.": {
+      "source": "Vous pouvez déposer de l'argent à tout moment.",
+      "file": "audio/fub/voice-037.webm"
+    },
+    "gardez votre carnet de compte en lieu sûr.": {
+      "source": "Gardez votre carnet de compte en lieu sûr.",
+      "file": "audio/fub/voice-038.webm"
+    },
+    "gardez le reçu de votre retrait.": {
+      "source": "Gardez le reçu de votre retrait.",
+      "file": "audio/fub/voice-039.webm"
+    },
+    "vous avez envoyé 2 000 francs à votre mère.": {
+      "source": "Vous avez envoyé 2 000 francs à votre mère.",
+      "file": "audio/fub/voice-040.webm"
+    },
+    "avez-vous besoin d'aide ?": {
+      "source": "Avez-vous besoin d'aide ?",
+      "file": "audio/fub/voice-041.webm"
+    },
+    "veuillez patienter.": {
+      "source": "Veuillez patienter.",
+      "file": "audio/fub/voice-042.webm"
+    },
+    "votre téléphone n'a pas de réseau. essayez plus tard.": {
+      "source": "Votre téléphone n'a pas de réseau. Essayez plus tard.",
+      "file": "audio/fub/voice-043.webm"
+    },
+    "voulez-vous payer votre facture d'eau ?": {
+      "source": "Voulez-vous payer votre facture d'eau ?",
+      "file": "audio/fub/voice-044.webm"
+    },
+    "votre numéro de compte est écrit sur votre contrat.": {
+      "source": "Votre numéro de compte est écrit sur votre contrat.",
+      "file": "audio/fub/voice-045.webm"
+    }
+  },
+  "lns": {
+    "vous allez envoyer 25 000 francs à paul.": {
+      "source": "Vous allez envoyer 25 000 francs à Paul.",
+      "file": "audio/lns/voice-001.webm",
+      "neutralEnd": 9.0
+    }
+  }
+}

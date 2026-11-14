@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "MboaLingua — SAFINUM prototype",
+  "version": "0.4.1",
+  "description": "Traductions et voix pour le simulateur SAFINUM et la démo Kalaba Money.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://safinum.cm/hackathon-test*",
+        "http://localhost/demo*",
+        "http://127.0.0.1/demo*"
+      ],
+      "js": ["languages.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "audio/*/*.wav",
+        "audio/*/*.webm",
+        "floating.css",
+        "collaborator-labels.json",
+        "safinum-labels.json",
+        "recorded-voices.json",
+        "greetings.json",
+        "kalaba-reference.json",
+        "prototype-drafts.json"
+      ],
+      "matches": [
+        "https://safinum.cm/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ]
+    }
+  ]
+}

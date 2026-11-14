@@ -1,0 +1,68 @@
+{
+  "fr": {
+    "morning": "Bonjour",
+    "afternoon": "Bon après-midi",
+    "evening": "Bonsoir",
+    "night": "Bonne nuit"
+  },
+  "en": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening",
+    "night": "Good night"
+  },
+  "bas": {
+    "morning": "Me yéga",
+    "afternoon": "Mbus kosi lam",
+    "evening": "Kôkô lam",
+    "night": "U nlam"
+  },
+  "bum": {
+    "morning": "Mbambà cé",
+    "afternoon": "Mbambà mos",
+    "evening": "Mbambà ngogé",
+    "night": "Mbambà alú"
+  },
+  "dua": {
+    "morning": "Mbolo mosso",
+    "afternoon": "Mwese mwa bwam",
+    "evening": "Ebiamu'a bwam",
+    "night": "Bulu ba bwam"
+  },
+  "ewo": {
+    "morning": "Mbembə kiri",
+    "afternoon": "Mbəmbə amos",
+    "evening": "Mbəmbe ŋgoge",
+    "night": "Mbəmbe alu"
+  },
+  "fub": {
+    "morning": "Jam waali?",
+    "afternoon": "Jam ñalli?",
+    "evening": "Jam hiiri?",
+    "night": "Mbaalen e jam"
+  },
+  "bbj": {
+    "morning": "Pu yogyele",
+    "afternoon": "Pu yogyele",
+    "evening": "Kuonfe",
+    "night": "Kuongèkin"
+  },
+  "wes": {
+    "morning": "Gut monin",
+    "afternoon": "Gut aftanum",
+    "evening": "Gut ivnin",
+    "night": "Gut nayt"
+  },
+  "ybb": {
+    "morning": "A ea láa a?",
+    "afternoon": "Mbɔŋmbɔŋ taŋazoko",
+    "evening": "Mbɔŋmbɔŋ eseŋnjhʉ",
+    "night": "Mbɔŋmbɔŋ ŋkɔʼɔcwɛt"
+  },
+  "lns": {
+    "morning": "Ye ran ni wo",
+    "afternoon": "Aresi nia",
+    "evening": "Yi ginia",
+    "night": "Buni kijung"
+  }
+}

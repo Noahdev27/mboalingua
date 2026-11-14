@@ -1,0 +1,520 @@
+{
+  "reference": {
+    "fr": {
+      "M001": {
+        "fr": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}."
+      },
+      "M002": {
+        "fr": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}."
+      },
+      "M003": {
+        "fr": "Votre solde est de {MONTANT_1}.",
+        "text": "Votre solde est de {MONTANT_1}."
+      },
+      "M004": {
+        "fr": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}."
+      },
+      "M005": {
+        "fr": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}."
+      },
+      "M006": {
+        "fr": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler.",
+        "text": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler."
+      },
+      "M007": {
+        "fr": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}.",
+        "text": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}."
+      },
+      "M008": {
+        "fr": "Transfert annulé. Aucun montant n'a été débité.",
+        "text": "Transfert annulé. Aucun montant n'a été débité."
+      },
+      "M009": {
+        "fr": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur.",
+        "text": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur."
+      },
+      "M010": {
+        "fr": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera.",
+        "text": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera."
+      },
+      "M011": {
+        "fr": "Votre code de validation est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Votre code de validation est affiché à l'écran. Ne le donnez à personne."
+      },
+      "M012": {
+        "fr": "Attention arnaque : personne ne vous demandera votre code par message ou par appel.",
+        "text": "Attention arnaque : personne ne vous demandera votre code par message ou par appel."
+      },
+      "M013": {
+        "fr": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité.",
+        "text": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité."
+      },
+      "M014": {
+        "fr": "Votre carte a été bloquée à votre demande.",
+        "text": "Votre carte a été bloquée à votre demande."
+      },
+      "M015": {
+        "fr": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}."
+      },
+      "M016": {
+        "fr": "Facture {REF_1} payée : {MONTANT_1}. Merci.",
+        "text": "Facture {REF_1} payée : {MONTANT_1}. Merci."
+      },
+      "M017": {
+        "fr": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}.",
+        "text": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}."
+      },
+      "M018": {
+        "fr": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}.",
+        "text": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}."
+      },
+      "M019": {
+        "fr": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}.",
+        "text": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}."
+      },
+      "M020": {
+        "fr": "Votre relevé du mois est disponible. Solde : {MONTANT_1}.",
+        "text": "Votre relevé du mois est disponible. Solde : {MONTANT_1}."
+      },
+      "M021": {
+        "fr": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}.",
+        "text": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}."
+      },
+      "M022": {
+        "fr": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}.",
+        "text": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}."
+      },
+      "M023": {
+        "fr": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée.",
+        "text": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée."
+      },
+      "M024": {
+        "fr": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser.",
+        "text": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser."
+      },
+      "M025": {
+        "fr": "Votre demande de prêt a été refusée.",
+        "text": "Votre demande de prêt a été refusée."
+      },
+      "M026": {
+        "fr": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}.",
+        "text": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}."
+      },
+      "M027": {
+        "fr": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser.",
+        "text": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser."
+      },
+      "M028": {
+        "fr": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}.",
+        "text": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}."
+      },
+      "M029": {
+        "fr": "Votre assurance est active jusqu'au {DATE_1}.",
+        "text": "Votre assurance est active jusqu'au {DATE_1}."
+      },
+      "M030": {
+        "fr": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}."
+      },
+      "M031": {
+        "fr": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide",
+        "text": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide"
+      },
+      "M032": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Entrez le numéro du bénéficiaire."
+      },
+      "M033": {
+        "fr": "Entrez le montant à envoyer.",
+        "text": "Entrez le montant à envoyer."
+      },
+      "M034": {
+        "fr": "Entrez votre code secret.",
+        "text": "Entrez votre code secret."
+      },
+      "M035": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Code secret incorrect. Réessayez."
+      },
+      "M036": {
+        "fr": "Opération réussie.",
+        "text": "Opération réussie."
+      },
+      "M037": {
+        "fr": "Opération échouée. Veuillez réessayer plus tard.",
+        "text": "Opération échouée. Veuillez réessayer plus tard."
+      },
+      "M038": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Service momentanément indisponible."
+      },
+      "M039": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Merci d'avoir utilisé nos services."
+      },
+      "M040": {
+        "fr": "Votre numéro {TEL_1} est enregistré.",
+        "text": "Votre numéro {TEL_1} est enregistré."
+      },
+      "M041": {
+        "fr": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler",
+        "text": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler"
+      },
+      "M042": {
+        "fr": "Insérez votre carte.",
+        "text": "Insérez votre carte."
+      },
+      "M043": {
+        "fr": "Choisissez votre langue.",
+        "text": "Choisissez votre langue."
+      },
+      "M044": {
+        "fr": "Entrez votre code secret. Cachez le clavier avec votre main.",
+        "text": "Entrez votre code secret. Cachez le clavier avec votre main."
+      },
+      "M045": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Choisissez le montant à retirer."
+      },
+      "M046": {
+        "fr": "Retirez votre argent.",
+        "text": "Retirez votre argent."
+      },
+      "M047": {
+        "fr": "Reprenez votre carte.",
+        "text": "Reprenez votre carte."
+      },
+      "M048": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Voulez-vous un reçu ?"
+      },
+      "M049": {
+        "fr": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer.",
+        "text": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer."
+      },
+      "M050": {
+        "fr": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer.",
+        "text": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer."
+      },
+      "M051": {
+        "fr": "Opération impossible : le distributeur n'a plus de billets.",
+        "text": "Opération impossible : le distributeur n'a plus de billets."
+      },
+      "M052": {
+        "fr": "Votre carte est retenue. Contactez votre banque.",
+        "text": "Votre carte est retenue. Contactez votre banque."
+      },
+      "M053": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Bonjour, comment puis-je vous aider ?"
+      },
+      "M054": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Veuillez présenter votre pièce d'identité."
+      },
+      "M055": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Voulez-vous ouvrir un compte ?"
+      },
+      "M056": {
+        "fr": "Les frais d'ouverture de compte sont de {MONTANT_1}.",
+        "text": "Les frais d'ouverture de compte sont de {MONTANT_1}."
+      },
+      "M057": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Signez ici, s'il vous plaît."
+      },
+      "M058": {
+        "fr": "Votre réclamation est enregistrée. Référence : {REF_1}.",
+        "text": "Votre réclamation est enregistrée. Référence : {REF_1}."
+      },
+      "M059": {
+        "fr": "L'agence est ouverte de {HEURE_1} à {HEURE_2}.",
+        "text": "L'agence est ouverte de {HEURE_1} à {HEURE_2}."
+      },
+      "M060": {
+        "fr": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}.",
+        "text": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}."
+      },
+      "M061": {
+        "fr": "Téléchargez notre application pour consulter votre compte à tout moment.",
+        "text": "Téléchargez notre application pour consulter votre compte à tout moment."
+      },
+      "M062": {
+        "fr": "Nos agences sont fermées les jours fériés.",
+        "text": "Nos agences sont fermées les jours fériés."
+      },
+      "M063": {
+        "fr": "Pour toute question, appelez le service client au {TEL_1}.",
+        "text": "Pour toute question, appelez le service client au {TEL_1}."
+      },
+      "M064": {
+        "fr": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}.",
+        "text": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}."
+      }
+    },
+    "en": {
+      "M001": {
+        "fr": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Withdrawal of {MONTANT_1} completed on {DATE_1}. Fee: {MONTANT_2}. New balance: {MONTANT_3}."
+      },
+      "M002": {
+        "fr": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Deposit of {MONTANT_1} received on {DATE_1}. New balance: {MONTANT_2}."
+      },
+      "M003": {
+        "fr": "Votre solde est de {MONTANT_1}.",
+        "text": "Your balance is {MONTANT_1}."
+      },
+      "M004": {
+        "fr": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "You received {MONTANT_1} from {NOM_1} on {DATE_1}. New balance: {MONTANT_2}."
+      },
+      "M005": {
+        "fr": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "You sent {MONTANT_1} to {NOM_1}. Fee: {MONTANT_2}. New balance: {MONTANT_3}."
+      },
+      "M006": {
+        "fr": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler.",
+        "text": "Confirm sending {MONTANT_1} to {NOM_1}. Fee: {MONTANT_2}. Press 1 to confirm, 2 to cancel."
+      },
+      "M007": {
+        "fr": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}.",
+        "text": "Transfer declined: insufficient balance. Your balance is {MONTANT_1}."
+      },
+      "M008": {
+        "fr": "Transfert annulé. Aucun montant n'a été débité.",
+        "text": "Transfer cancelled. No amount was debited."
+      },
+      "M009": {
+        "fr": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur.",
+        "text": "Your secret code has been changed. If this was not you, call your provider immediately."
+      },
+      "M010": {
+        "fr": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera.",
+        "text": "Never share your secret code. Nobody from the bank or the operator will ask you for it."
+      },
+      "M011": {
+        "fr": "Votre code de validation est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Your validation code is shown on the screen. Do not give it to anyone."
+      },
+      "M012": {
+        "fr": "Attention arnaque : personne ne vous demandera votre code par message ou par appel.",
+        "text": "Beware of scams: nobody will ask for your code by message or by phone call."
+      },
+      "M013": {
+        "fr": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité.",
+        "text": "Suspicious login attempt detected on your account. Your account has been blocked for security."
+      },
+      "M014": {
+        "fr": "Votre carte a été bloquée à votre demande.",
+        "text": "Your card has been blocked at your request."
+      },
+      "M015": {
+        "fr": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Payment of {MONTANT_1} at {LIEU_1} on {DATE_1}. New balance: {MONTANT_2}."
+      },
+      "M016": {
+        "fr": "Facture {REF_1} payée : {MONTANT_1}. Merci.",
+        "text": "Bill {REF_1} paid: {MONTANT_1}. Thank you."
+      },
+      "M017": {
+        "fr": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}.",
+        "text": "Airtime purchase of {MONTANT_1} completed. New balance: {MONTANT_2}."
+      },
+      "M018": {
+        "fr": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}.",
+        "text": "Transfer of {MONTANT_1} received on your account on {DATE_1}."
+      },
+      "M019": {
+        "fr": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}.",
+        "text": "Transfer of {MONTANT_1} sent to {NOM_1} on {DATE_1}. Fee: {MONTANT_2}."
+      },
+      "M020": {
+        "fr": "Votre relevé du mois est disponible. Solde : {MONTANT_1}.",
+        "text": "Your monthly statement is available. Balance: {MONTANT_1}."
+      },
+      "M021": {
+        "fr": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}.",
+        "text": "Account maintenance fees of {MONTANT_1} were deducted on {DATE_1}."
+      },
+      "M022": {
+        "fr": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}.",
+        "text": "Your loan of {MONTANT_1} is approved. Rate: {TAUX_1}. First instalment due on {DATE_1}."
+      },
+      "M023": {
+        "fr": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée.",
+        "text": "Instalment of {MONTANT_1} due before {DATE_1}. After this date, a penalty of {MONTANT_2} will apply."
+      },
+      "M024": {
+        "fr": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser.",
+        "text": "Repayment of {MONTANT_1} received. You still owe {MONTANT_2}."
+      },
+      "M025": {
+        "fr": "Votre demande de prêt a été refusée.",
+        "text": "Your loan application has been declined."
+      },
+      "M026": {
+        "fr": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}.",
+        "text": "Interest of {MONTANT_1} credited to your savings account at a rate of {TAUX_1}."
+      },
+      "M027": {
+        "fr": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser.",
+        "text": "Your account is overdrawn by {MONTANT_1}. Please regularise it."
+      },
+      "M028": {
+        "fr": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}.",
+        "text": "Reminder: payment of your insurance premium of {MONTANT_1} before {DATE_1}."
+      },
+      "M029": {
+        "fr": "Votre assurance est active jusqu'au {DATE_1}.",
+        "text": "Your insurance is active until {DATE_1}."
+      },
+      "M030": {
+        "fr": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Withdrawal of {MONTANT_1} at agent {NOM_1}. Fee: {MONTANT_2}. New balance: {MONTANT_3}."
+      },
+      "M031": {
+        "fr": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide",
+        "text": "Welcome. 1. Balance 2. Send money 3. Withdraw 4. Pay a bill 5. Help"
+      },
+      "M032": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Enter the recipient's number."
+      },
+      "M033": {
+        "fr": "Entrez le montant à envoyer.",
+        "text": "Enter the amount to send."
+      },
+      "M034": {
+        "fr": "Entrez votre code secret.",
+        "text": "Enter your secret code."
+      },
+      "M035": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Incorrect secret code. Try again."
+      },
+      "M036": {
+        "fr": "Opération réussie.",
+        "text": "Operation successful."
+      },
+      "M037": {
+        "fr": "Opération échouée. Veuillez réessayer plus tard.",
+        "text": "Operation failed. Please try again later."
+      },
+      "M038": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Service temporarily unavailable."
+      },
+      "M039": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Thank you for using our services."
+      },
+      "M040": {
+        "fr": "Votre numéro {TEL_1} est enregistré.",
+        "text": "Your number {TEL_1} is registered."
+      },
+      "M041": {
+        "fr": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler",
+        "text": "Sending to {TEL_1}: {MONTANT_1}. Fee: {MONTANT_2}. 1. Confirm 2. Cancel"
+      },
+      "M042": {
+        "fr": "Insérez votre carte.",
+        "text": "Insert your card."
+      },
+      "M043": {
+        "fr": "Choisissez votre langue.",
+        "text": "Choose your language."
+      },
+      "M044": {
+        "fr": "Entrez votre code secret. Cachez le clavier avec votre main.",
+        "text": "Enter your secret code. Cover the keypad with your hand."
+      },
+      "M045": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Choose the amount to withdraw."
+      },
+      "M046": {
+        "fr": "Retirez votre argent.",
+        "text": "Take your cash."
+      },
+      "M047": {
+        "fr": "Reprenez votre carte.",
+        "text": "Take your card."
+      },
+      "M048": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Do you want a receipt?"
+      },
+      "M049": {
+        "fr": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer.",
+        "text": "Withdrawal of {MONTANT_1}. Fee: {MONTANT_2}. Press Validate to confirm."
+      },
+      "M050": {
+        "fr": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer.",
+        "text": "Your balance is {MONTANT_1}. Press Back to continue."
+      },
+      "M051": {
+        "fr": "Opération impossible : le distributeur n'a plus de billets.",
+        "text": "Operation not possible: the machine is out of notes."
+      },
+      "M052": {
+        "fr": "Votre carte est retenue. Contactez votre banque.",
+        "text": "Your card has been retained. Contact your bank."
+      },
+      "M053": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Hello, how can I help you?"
+      },
+      "M054": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Please show your identity document."
+      },
+      "M055": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Would you like to open an account?"
+      },
+      "M056": {
+        "fr": "Les frais d'ouverture de compte sont de {MONTANT_1}.",
+        "text": "The account opening fee is {MONTANT_1}."
+      },
+      "M057": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Please sign here."
+      },
+      "M058": {
+        "fr": "Votre réclamation est enregistrée. Référence : {REF_1}.",
+        "text": "Your complaint has been registered. Reference: {REF_1}."
+      },
+      "M059": {
+        "fr": "L'agence est ouverte de {HEURE_1} à {HEURE_2}.",
+        "text": "The branch is open from {HEURE_1} to {HEURE_2}."
+      },
+      "M060": {
+        "fr": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}.",
+        "text": "Your appointment is confirmed on {DATE_1} at {HEURE_1}."
+      },
+      "M061": {
+        "fr": "Téléchargez notre application pour consulter votre compte à tout moment.",
+        "text": "Download our app to check your account at any time."
+      },
+      "M062": {
+        "fr": "Nos agences sont fermées les jours fériés.",
+        "text": "Our branches are closed on public holidays."
+      },
+      "M063": {
+        "fr": "Pour toute question, appelez le service client au {TEL_1}.",
+        "text": "For any question, call customer service on {TEL_1}."
+      },
+      "M064": {
+        "fr": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}.",
+        "text": "Promotion: open a savings account and receive a rate of {TAUX_1}."
+      }
+    }
+  }
+}

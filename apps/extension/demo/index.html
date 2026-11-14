@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<title>Kalaba Money — Site de test</title>
+<style>
+  body { margin: 40px auto; max-width: 650px; padding: 0 16px; font: 17px system-ui; color: #173a30; }
+  button { padding: 8px 12px; margin: 0 4px 8px 0; font: inherit; cursor: pointer; }
+  article { background: #f4f8f6; padding: 14px; margin: 12px 0; border-radius: 8px; }
+</style>
+<h1>Kalaba Money</h1>
+<p>Site de test fermé · Transactions fictives</p>
+<nav aria-label="Scénarios">
+  <button data-scenario="M004">Paiement reçu</button>
+  <button data-scenario="M006">Confirmer un envoi</button>
+  <button data-scenario="M008">Transfert annulé</button>
+  <button data-scenario="M053">Accueil vocal</button>
+  <button data-scenario="M012">Alerte arnaque</button>
+  <button data-scenario="M023">Échéance de prêt</button>
+</nav>
+<nav aria-label="Salutations">
+  <button data-scenario="morning">Bonjour (matin)</button>
+  <button data-scenario="afternoon">Bon après-midi</button>
+  <button data-scenario="evening">Bonsoir</button>
+  <button data-scenario="night">Bonne nuit</button>
+</nav>
+<section id="feed" aria-label="Notifications"></section>
+<script src="demo.js"></script>
+</html>

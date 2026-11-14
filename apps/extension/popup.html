@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MboaLingua</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="languages.js" defer></script>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <div>
+        <h1>MboaLingua</h1>
+        <p>SAFINUM · Kalaba Money</p>
+      </div>
+    </header>
+    <form id="translate">
+      <label for="language">Langue de la page</label>
+      <select id="language" name="language"><option value="">Texte original</option></select>
+      <button id="apply" type="submit" disabled>Afficher les traductions</button>
+    </form>
+    <div class="activity">
+      <p id="status" role="status">Choisissez une langue pour la page de test.</p>
+    </div>
+  </main>
+</body>
+</html>

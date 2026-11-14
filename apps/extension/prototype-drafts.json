@@ -1,0 +1,5368 @@
+{
+  "source": "https://ai.google.dev/gemini-api/docs/models",
+  "model": "gemini-3.5-flash-lite",
+  "modelLicense": "Gemini API Terms",
+  "status": "machine_draft",
+  "languages": {
+    "ewo": {
+      "P001": {
+        "fr": "Ne communiquez jamais votre code secret à personne.",
+        "text": "Ta teleko mvañ wò mbebe mbolo môt ai môt."
+      },
+      "P002": {
+        "fr": "Personne de la banque ne vous demandera votre code secret.",
+        "text": "Môt a ne nzing a banka a teleko mvañ wò mbebe."
+      },
+      "P003": {
+        "fr": "Personne de l'opérateur ne vous demandera votre code secret.",
+        "text": "Môt a ne nzing a ntôm wò mbebe a teleko mvañ wò."
+      },
+      "P004": {
+        "fr": "Attention : c'est peut-être une arnaque.",
+        "text": "Yegbene: a ne feb asu a ne ényi."
+      },
+      "P005": {
+        "fr": "Si quelqu'un vous demande votre code par téléphone, raccrochez.",
+        "text": "E môt a ne kɔlɔ mvañ wò ai telefon, titi telepon."
+      },
+      "P006": {
+        "fr": "Votre code est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Mvañ wò wò kebe ékila. Ta teleko môt ai môt."
+      },
+      "P007": {
+        "fr": "Vérifiez le montant avant de confirmer.",
+        "text": "Fân osusu anë nlem."
+      },
+      "P008": {
+        "fr": "Vérifiez le nom du bénéficiaire avant de confirmer.",
+        "text": "Fân asili anë nlem."
+      },
+      "P009": {
+        "fr": "Vérifiez les frais avant de confirmer.",
+        "text": "Fân mfia anë nlem."
+      },
+      "P010": {
+        "fr": "Voulez-vous vraiment envoyer cet argent ?",
+        "text": "O kote ye kôm ɔti mon o?"
+      },
+      "P011": {
+        "fr": "Appuyez sur un pour confirmer.",
+        "text": "Kôm abui môt anë nlem."
+      },
+      "P012": {
+        "fr": "Appuyez sur deux pour annuler.",
+        "text": "Kôm abui mbeba anë nlem."
+      },
+      "P013": {
+        "fr": "L'opération est annulée. Votre argent n'a pas bougé.",
+        "text": "A ne a liti. Mon wò wò sili."
+      },
+      "P014": {
+        "fr": "L'opération est réussie.",
+        "text": "A ne kôm."
+      },
+      "P015": {
+        "fr": "L'opération a échoué. Votre argent n'a pas été débité.",
+        "text": "A ne bɔbɔ. Mon wò wò tili."
+      },
+      "P016": {
+        "fr": "Votre solde est insuffisant.",
+        "text": "Mon wò a ne ngyii."
+      },
+      "P017": {
+        "fr": "Votre compte est bloqué par sécurité.",
+        "text": "Kɔntu wò a nga kpat anë mven."
+      },
+      "P018": {
+        "fr": "Votre carte est bloquée.",
+        "text": "Kati wò a nga kpat."
+      },
+      "P019": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre banque.",
+        "text": "E a ne ñwɔ a ne nzing, kɔlɔ telefon banka wò mvus."
+      },
+      "P020": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre opérateur.",
+        "text": "E a ne ñwɔ a ne nzing, kɔlɔ telefon ntôm wò mvus."
+      },
+      "P021": {
+        "fr": "Il y a des frais pour cette opération.",
+        "text": "Mfia a ne asu abui a."
+      },
+      "P022": {
+        "fr": "Cette opération est gratuite.",
+        "text": "Abui a ne mbon."
+      },
+      "P023": {
+        "fr": "Vous devez payer avant la date indiquée.",
+        "text": "O ne a fân osusu éwolo."
+      },
+      "P024": {
+        "fr": "Si vous payez en retard, vous payez une pénalité.",
+        "text": "E o kene mfia mbo, o fân mbeba."
+      },
+      "P031": {
+        "fr": "Vous avez reçu",
+        "text": "O ŋɔbi"
+      },
+      "P032": {
+        "fr": "Vous avez envoyé",
+        "text": "O tɔm"
+      },
+      "P033": {
+        "fr": "Vous allez envoyer",
+        "text": "O tele tolo tɔm"
+      },
+      "P034": {
+        "fr": "Vous allez retirer",
+        "text": "O tele tolo yɔb"
+      },
+      "P035": {
+        "fr": "Vous avez déposé",
+        "text": "O fia"
+      },
+      "P036": {
+        "fr": "Votre solde est de",
+        "text": "Mbóng yɔŋ a ne"
+      },
+      "P037": {
+        "fr": "Votre nouveau solde est de",
+        "text": "Mbóng yɔŋ mfefe a ne"
+      },
+      "P038": {
+        "fr": "Les frais sont de",
+        "text": "Njeŋ a ne"
+      },
+      "P039": {
+        "fr": "Le montant total est de",
+        "text": "Mbóng mvuse a ne"
+      },
+      "P040": {
+        "fr": "à",
+        "text": "mɛ"
+      },
+      "P041": {
+        "fr": "de la part de",
+        "text": "ya nyɔ"
+      },
+      "P042": {
+        "fr": "le",
+        "text": "mɔsi"
+      },
+      "P043": {
+        "fr": "chez l'agent",
+        "text": "ba ajen"
+      },
+      "P044": {
+        "fr": "à l'agence",
+        "text": "ba ajensi"
+      },
+      "P045": {
+        "fr": "Le taux est de",
+        "text": "Tɔ ba a ne"
+      },
+      "P046": {
+        "fr": "pour cent",
+        "text": "bɛ bɛ"
+      },
+      "P047": {
+        "fr": "La première échéance est le",
+        "text": "Osusuu a ntsina a ne"
+      },
+      "P048": {
+        "fr": "Il vous reste à rembourser",
+        "text": "O yale man"
+      },
+      "P049": {
+        "fr": "La pénalité est de",
+        "text": "Minyo mibé mé ne"
+      },
+      "P050": {
+        "fr": "Le paiement est confirmé pour",
+        "text": "Nsano wo mbe"
+      },
+      "P051": {
+        "fr": "Bienvenue.",
+        "text": "Mbolo."
+      },
+      "P052": {
+        "fr": "Choisissez votre langue.",
+        "text": "Yélnan abəg woyè."
+      },
+      "P053": {
+        "fr": "Pour le solde, tapez un.",
+        "text": "Tɔŋ jɔwməg akəb amɔt, m̀vu nnom."
+      },
+      "P054": {
+        "fr": "Pour envoyer de l'argent, tapez deux.",
+        "text": "Tɔŋ jɔwməg akəb ebɛ̌, m̀vu nnom mgbwal."
+      },
+      "P055": {
+        "fr": "Pour un retrait, tapez trois.",
+        "text": "Tɔŋ jɔwməg akəb etát, m̀vu nnom mgbwal."
+      },
+      "P056": {
+        "fr": "Pour payer une facture, tapez quatre.",
+        "text": "Tɔŋ jɔwməg akəb inyík, m̀vu nnom mgbwal."
+      },
+      "P057": {
+        "fr": "Pour de l'aide, tapez cinq.",
+        "text": "Tɔŋ jɔwməg akəb tan, m̀vu mban."
+      },
+      "P058": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Yid aŋgɔlɔ ô nyu mbo bə́ nyè."
+      },
+      "P059": {
+        "fr": "Entrez le montant.",
+        "text": "Yid abəg."
+      },
+      "P060": {
+        "fr": "Entrez votre code secret.",
+        "text": "Yid kɔd woyè w'ôsɛn."
+      },
+      "P061": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Kɔd woyè w'ôsɛn a nyi mbo nnom. Yélnan ai kə́m."
+      },
+      "P062": {
+        "fr": "Insérez votre carte.",
+        "text": "Kəg kadi woyè o nnam."
+      },
+      "P063": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Yélnan abəg woyè wo yé nni."
+      },
+      "P064": {
+        "fr": "Retirez votre argent.",
+        "text": "Fân abəg woyè."
+      },
+      "P065": {
+        "fr": "Reprenez votre carte.",
+        "text": "Kəg kadi woyè."
+      },
+      "P066": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "W’anyɔŋ gəlɔtə́ ?"
+      },
+      "P067": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "M̀bambé a mɔlɔ bə́ nyu ébɔ́g."
+      },
+      "P068": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Ébɔ́g é nyi mbo nnom ébɔ́g a zɛ̌."
+      },
+      "P069": {
+        "fr": "Veuillez réessayer plus tard.",
+        "text": "Yélnan ai kə́m akàb a zɛ̌."
+      },
+      "P070": {
+        "fr": "Pour parler à un conseiller, tapez zéro.",
+        "text": "Tɔŋ jɔwməg akəb akɔl, m̀vu nnom mban."
+      },
+      "P071": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Mbolo, ḿba mban wé ?"
+      },
+      "P072": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Yélnan gatar woyè w'a tɛ́m bɛ̌."
+      },
+      "P097": {
+        "fr": "Je ne comprends pas. Pouvez-vous répéter ?",
+        "text": "Ma wó nɔ́. O nù kámba?"
+      },
+      "P098": {
+        "fr": "Ce n'est pas possible pour le moment.",
+        "text": "A ne minté mgbà m̀gbe."
+      },
+      "P099": {
+        "fr": "Revenez demain, s'il vous plaît.",
+        "text": "Bɛ̀ jɔ nɛ́, bɛ̀ mɛ biko."
+      },
+      "P100": {
+        "fr": "Bonne journée.",
+        "text": "Zá bɛ̀ nyá."
+      },
+      "N0000000": {
+        "fr": "0",
+        "text": "zero"
+      },
+      "N0000001": {
+        "fr": "1",
+        "text": "mɔ̀gɔ̀"
+      },
+      "N0000002": {
+        "fr": "2",
+        "text": "bɛ̌"
+      },
+      "N0000003": {
+        "fr": "3",
+        "text": "lɛ́"
+      },
+      "N0000004": {
+        "fr": "4",
+        "text": "nyiɛ́n"
+      },
+      "N0000005": {
+        "fr": "5",
+        "text": "tǎny"
+      },
+      "N0000006": {
+        "fr": "6",
+        "text": "samàná"
+      },
+      "N0000007": {
+        "fr": "7",
+        "text": "ngaàwú"
+      },
+      "N0000008": {
+        "fr": "8",
+        "text": "mwâm"
+      },
+      "N0000009": {
+        "fr": "9",
+        "text": "ebûg"
+      },
+      "N0000010": {
+        "fr": "10",
+        "text": "owôm"
+      },
+      "N0000011": {
+        "fr": "11",
+        "text": "owôm akɔ́ mɔ̀gɔ̀"
+      },
+      "N0000012": {
+        "fr": "12",
+        "text": "owôm akɔ́ bɛ̌"
+      },
+      "N0000013": {
+        "fr": "13",
+        "text": "owôm akɔ́ lɛ́"
+      },
+      "N0000014": {
+        "fr": "14",
+        "text": "owôm akɔ́ nyiɛ́n"
+      },
+      "N0000015": {
+        "fr": "15",
+        "text": "owôm akɔ́ tǎny"
+      },
+      "N0000016": {
+        "fr": "16",
+        "text": "owôm akɔ́ samàná"
+      },
+      "N0000017": {
+        "fr": "17",
+        "text": "owôm akɔ́ ngaàwú"
+      },
+      "N0000018": {
+        "fr": "18",
+        "text": "owôm akɔ́ mwâm"
+      },
+      "N0000019": {
+        "fr": "19",
+        "text": "owôm akɔ́ ebûg"
+      },
+      "N0000020": {
+        "fr": "20",
+        "text": "bɛ̌ wôm"
+      },
+      "N0000021": {
+        "fr": "21",
+        "text": "bɛ̌ wôm akɔ́ mɔ̀gɔ̀"
+      },
+      "N0000022": {
+        "fr": "22",
+        "text": "bɛ̌ wôm akɔ́ bɛ̌"
+      },
+      "N0000023": {
+        "fr": "23",
+        "text": "bɛ̌ wôm akɔ́ lɛ́"
+      },
+      "N0000024": {
+        "fr": "24",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀"
+      },
+      "N0000025": {
+        "fr": "25",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ai tân"
+      },
+      "N0000026": {
+        "fr": "26",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ai samana"
+      },
+      "N0000027": {
+        "fr": "27",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ai samana ai ba"
+      },
+      "N0000028": {
+        "fr": "28",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ai samana ai mwɛ"
+      },
+      "N0000029": {
+        "fr": "29",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ai samana ai nya"
+      },
+      "N0000030": {
+        "fr": "30",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba"
+      },
+      "N0000031": {
+        "fr": "31",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai fɔ́g"
+      },
+      "N0000032": {
+        "fr": "32",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai ba"
+      },
+      "N0000033": {
+        "fr": "33",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai mwɛ"
+      },
+      "N0000034": {
+        "fr": "34",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai nya"
+      },
+      "N0000035": {
+        "fr": "35",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai tân"
+      },
+      "N0000036": {
+        "fr": "36",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai samana"
+      },
+      "N0000037": {
+        "fr": "37",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai samana ai ba"
+      },
+      "N0000038": {
+        "fr": "38",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai samana ai mwɛ"
+      },
+      "N0000039": {
+        "fr": "39",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ ba ai samana ai nya"
+      },
+      "N0000040": {
+        "fr": "40",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ"
+      },
+      "N0000041": {
+        "fr": "41",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai fɔ́g"
+      },
+      "N0000042": {
+        "fr": "42",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai ba"
+      },
+      "N0000043": {
+        "fr": "43",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai mwɛ"
+      },
+      "N0000044": {
+        "fr": "44",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai nya"
+      },
+      "N0000045": {
+        "fr": "45",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai tân"
+      },
+      "N0000046": {
+        "fr": "46",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai samana"
+      },
+      "N0000047": {
+        "fr": "47",
+        "text": "mbɛ́m nɛ lɔ́ m̀bɛ̀ mwɛ ai samana ai ba"
+      },
+      "N0000048": {
+        "fr": "48",
+        "text": "mbôm ànyaŋ na ɓbaà"
+      },
+      "N0000049": {
+        "fr": "49",
+        "text": "mbôm ànyaŋ na fòfuna"
+      },
+      "N0000050": {
+        "fr": "50",
+        "text": "mbôm ǹtan"
+      },
+      "N0000051": {
+        "fr": "51",
+        "text": "mbôm ǹtan na mɔ̀k"
+      },
+      "N0000052": {
+        "fr": "52",
+        "text": "mbôm ǹtan na ɓbaà"
+      },
+      "N0000053": {
+        "fr": "53",
+        "text": "mbôm ǹtan na lala"
+      },
+      "N0000054": {
+        "fr": "54",
+        "text": "mbôm ǹtan na nyiâ"
+      },
+      "N0000055": {
+        "fr": "55",
+        "text": "mbôm ǹtan na tàna"
+      },
+      "N0000056": {
+        "fr": "56",
+        "text": "mbôm ǹtan na samà"
+      },
+      "N0000057": {
+        "fr": "57",
+        "text": "mbôm ǹtan na ɓwamba"
+      },
+      "N0000058": {
+        "fr": "58",
+        "text": "mbôm ǹtan na ànyaŋ na ɓbaà"
+      },
+      "N0000059": {
+        "fr": "59",
+        "text": "mbôm ǹtan na ànyaŋ na fòfuna"
+      },
+      "N0000060": {
+        "fr": "60",
+        "text": "mbôm ɓbaà ɓia"
+      },
+      "N0000061": {
+        "fr": "61",
+        "text": "mbôm ɓbaà ɓia na mɔ̀k"
+      },
+      "N0000062": {
+        "fr": "62",
+        "text": "mbôm ɓbaà ɓia na ɓbaà"
+      },
+      "N0000063": {
+        "fr": "63",
+        "text": "mbôm ɓbaà ɓia na lala"
+      },
+      "N0000064": {
+        "fr": "64",
+        "text": "mbôm ɓbaà ɓia na nyiâ"
+      },
+      "N0000065": {
+        "fr": "65",
+        "text": "mbôm ɓbaà ɓia na tàna"
+      },
+      "N0000066": {
+        "fr": "66",
+        "text": "mbôm ɓbaà ɓia na samà"
+      },
+      "N0000067": {
+        "fr": "67",
+        "text": "mbôm ɓbaà ɓia na ɓwamba"
+      },
+      "N0000068": {
+        "fr": "68",
+        "text": "mbôm ɓbaà ɓia na ànyaŋ na ɓbaà"
+      },
+      "N0000069": {
+        "fr": "69",
+        "text": "mbôm ɓbaà ɓia na ànyaŋ na fòfuna"
+      },
+      "N0000070": {
+        "fr": "70",
+        "text": "mbôm lala ɓia"
+      },
+      "N0000071": {
+        "fr": "71",
+        "text": "mbôm lala ɓia na mɔ̀k"
+      },
+      "N0000072": {
+        "fr": "72",
+        "text": "owum mbàba"
+      },
+      "N0000073": {
+        "fr": "73",
+        "text": "owum mbàba na lə́ mbalə"
+      },
+      "N0000074": {
+        "fr": "74",
+        "text": "owum mbàba na lə́ fele"
+      },
+      "N0000075": {
+        "fr": "75",
+        "text": "owum mbàba na lə́ tan"
+      },
+      "N0000076": {
+        "fr": "76",
+        "text": "owum mbàba na lə́ samə"
+      },
+      "N0000077": {
+        "fr": "77",
+        "text": "owum mbàba na lə́ nsamə"
+      },
+      "N0000078": {
+        "fr": "78",
+        "text": "owum mbàba na lə́ mwamə"
+      },
+      "N0000079": {
+        "fr": "79",
+        "text": "owum mbàba na lə́ ebà wà wà"
+      },
+      "N0000080": {
+        "fr": "80",
+        "text": "owum mwamə"
+      },
+      "N0000081": {
+        "fr": "81",
+        "text": "owum mwamə na lə́ mbalə"
+      },
+      "N0000082": {
+        "fr": "82",
+        "text": "owum mwamə na lə́ fele"
+      },
+      "N0000083": {
+        "fr": "83",
+        "text": "owum mwamə na lə́ tan"
+      },
+      "N0000084": {
+        "fr": "84",
+        "text": "owum mwamə na lə́ samə"
+      },
+      "N0000085": {
+        "fr": "85",
+        "text": "owum mwamə na lə́ nsamə"
+      },
+      "N0000086": {
+        "fr": "86",
+        "text": "owum mwamə na lə́ mwamə"
+      },
+      "N0000087": {
+        "fr": "87",
+        "text": "owum mwamə na lə́ ebà wà wà"
+      },
+      "N0000088": {
+        "fr": "88",
+        "text": "owum mwamə na lə́ mwamə mban"
+      },
+      "N0000089": {
+        "fr": "89",
+        "text": "owum mwamə na lə́ omvu"
+      },
+      "N0000090": {
+        "fr": "90",
+        "text": "owum omvu"
+      },
+      "N0000091": {
+        "fr": "91",
+        "text": "owum omvu na lə́ mbalə"
+      },
+      "N0000092": {
+        "fr": "92",
+        "text": "owum omvu na lə́ fele"
+      },
+      "N0000093": {
+        "fr": "93",
+        "text": "owum omvu na lə́ tan"
+      },
+      "N0000094": {
+        "fr": "94",
+        "text": "owum omvu na lə́ samə"
+      },
+      "N0000095": {
+        "fr": "95",
+        "text": "owum omvu na lə́ nsamə"
+      },
+      "N0000096": {
+        "fr": "96",
+        "text": "mbôm mbalè na mbalè nyòŋ gban"
+      },
+      "N0000097": {
+        "fr": "97",
+        "text": "mbôm mbalè na mbalè nyòŋ gban a ba"
+      },
+      "N0000098": {
+        "fr": "98",
+        "text": "mbôm mbalè na mbalè nyòŋ gban a bê"
+      },
+      "N0000099": {
+        "fr": "99",
+        "text": "mbôm mbalè na mbalè nyòŋ gban a nya"
+      },
+      "N0000100": {
+        "fr": "100",
+        "text": "nkál"
+      },
+      "N0000200": {
+        "fr": "200",
+        "text": "nkál ba"
+      },
+      "N0000300": {
+        "fr": "300",
+        "text": "nkál bê"
+      },
+      "N0000400": {
+        "fr": "400",
+        "text": "nkál nya"
+      },
+      "N0000500": {
+        "fr": "500",
+        "text": "nkál tɔn"
+      },
+      "N0000600": {
+        "fr": "600",
+        "text": "nkál sam"
+      },
+      "N0000700": {
+        "fr": "700",
+        "text": "nkál sam na ba"
+      },
+      "N0000800": {
+        "fr": "800",
+        "text": "nkál sam na bê"
+      },
+      "N0000900": {
+        "fr": "900",
+        "text": "nkál sam na nya"
+      },
+      "N0001000": {
+        "fr": "1000",
+        "text": "nkál nkál"
+      },
+      "N0002000": {
+        "fr": "2000",
+        "text": "nkál nkál ba"
+      },
+      "N0005000": {
+        "fr": "5000",
+        "text": "nkál nkál tɔn"
+      },
+      "N0010000": {
+        "fr": "10000",
+        "text": "nkál nkál nkál"
+      },
+      "N0100000": {
+        "fr": "100000",
+        "text": "nkál nkál nkál nkál nkál"
+      },
+      "N1000000": {
+        "fr": "1000000",
+        "text": "nkál nkál nkál nkál nkál nkál nkál"
+      },
+      "N_VIRGULE": {
+        "fr": "virgule",
+        "text": "fɔkɔ̀"
+      },
+      "N_PCENT": {
+        "fr": "pour cent",
+        "text": "namba"
+      },
+      "N_FRANC": {
+        "fr": "franc CFA",
+        "text": "faranga"
+      },
+      "MOIS01": {
+        "fr": "janvier",
+        "text": "ngoo yə mbəmbɔŋ"
+      },
+      "MOIS02": {
+        "fr": "février",
+        "text": "ngoo yə ɓəba"
+      },
+      "MOIS03": {
+        "fr": "mars",
+        "text": "ngoo yə ɓəlal"
+      },
+      "MOIS04": {
+        "fr": "avril",
+        "text": "ngoo yə ɓənɛ"
+      },
+      "MOIS05": {
+        "fr": "mai",
+        "text": "ngoo yə ɓETan"
+      },
+      "MOIS06": {
+        "fr": "juin",
+        "text": "ngoo yə ɓEmuam"
+      },
+      "MOIS07": {
+        "fr": "juillet",
+        "text": "ngoo yə ɓEgbwa"
+      },
+      "MOIS08": {
+        "fr": "août",
+        "text": "ngoo yə ɓEfwo"
+      },
+      "MOIS09": {
+        "fr": "septembre",
+        "text": "ngoo yə ɓEbuu"
+      },
+      "MOIS10": {
+        "fr": "octobre",
+        "text": "ngoo yə Owأم"
+      },
+      "MOIS11": {
+        "fr": "novembre",
+        "text": "ngoo yə Owأم a fə bəba"
+      },
+      "MOIS12": {
+        "fr": "décembre",
+        "text": "ngoo yə Owأم a fə ɓəlal"
+      },
+      "JOUR1": {
+        "fr": "lundi",
+        "text": "mɔndə"
+      },
+      "JOUR2": {
+        "fr": "mardi",
+        "text": "tatsə"
+      },
+      "JOUR3": {
+        "fr": "mercredi",
+        "text": "mɛrkərɛ"
+      },
+      "JOUR4": {
+        "fr": "jeudi",
+        "text": "jodə"
+      },
+      "JOUR5": {
+        "fr": "vendredi",
+        "text": "vənrə"
+      },
+      "JOUR6": {
+        "fr": "samedi",
+        "text": "samdə"
+      },
+      "JOUR7": {
+        "fr": "dimanche",
+        "text": "sɔndə"
+      },
+      "TPS1": {
+        "fr": "aujourd'hui",
+        "text": "nnəŋ"
+      },
+      "TPS2": {
+        "fr": "demain",
+        "text": "maŋ"
+      },
+      "TPS3": {
+        "fr": "hier",
+        "text": "tsɔ"
+      },
+      "TPS4": {
+        "fr": "ce matin",
+        "text": "alú nne"
+      },
+      "TPS5": {
+        "fr": "ce soir",
+        "text": "bɔ́gɔ bə́nyan"
+      },
+      "TPS6": {
+        "fr": "heures",
+        "text": "ngə́ndə"
+      },
+      "G001": {
+        "fr": "compte",
+        "text": "ndá mbongo"
+      },
+      "G002": {
+        "fr": "compte courant",
+        "text": "ndá mbongo yá nnɛm"
+      },
+      "G003": {
+        "fr": "compte d'épargne",
+        "text": "ndá mbongo yá kə́b"
+      },
+      "G004": {
+        "fr": "solde",
+        "text": "mbongo yá məkɔ́gɔ"
+      },
+      "G005": {
+        "fr": "solde disponible",
+        "text": "mbongo mvá mɔ́n mɔ́b"
+      },
+      "G006": {
+        "fr": "dépôt",
+        "text": "tubugə mbongo"
+      },
+      "G007": {
+        "fr": "retrait",
+        "text": "fɔ́gə mbongo"
+      },
+      "G008": {
+        "fr": "virement",
+        "text": "ntumə mbongo"
+      },
+      "G009": {
+        "fr": "transfert",
+        "text": "ntumə mbongo"
+      },
+      "G010": {
+        "fr": "envoi d'argent",
+        "text": "ntumə mbongo"
+      },
+      "G011": {
+        "fr": "réception d'argent",
+        "text": "tambugə mbongo"
+      },
+      "G012": {
+        "fr": "paiement",
+        "text": "nyumbə mbongo"
+      },
+      "G013": {
+        "fr": "facture",
+        "text": "kalad yá mbongo"
+      },
+      "G014": {
+        "fr": "reçu",
+        "text": "kalad yá mbalə"
+      },
+      "G015": {
+        "fr": "relevé",
+        "text": "kalad yá mbongo"
+      },
+      "G016": {
+        "fr": "historique",
+        "text": "bibumə biə́b"
+      },
+      "G017": {
+        "fr": "opération",
+        "text": "mərɔ́gɔ"
+      },
+      "G018": {
+        "fr": "transaction",
+        "text": "mərɔ́gɔ"
+      },
+      "G019": {
+        "fr": "référence de transaction",
+        "text": "nɔ́m yá mərɔ́gɔ"
+      },
+      "G020": {
+        "fr": "bénéficiaire",
+        "text": "mɔ́n mbongo"
+      },
+      "G021": {
+        "fr": "expéditeur",
+        "text": "mutumə mbongo"
+      },
+      "G022": {
+        "fr": "débit",
+        "text": "mbômbi m'kpwa"
+      },
+      "G023": {
+        "fr": "crédit (sur le compte)",
+        "text": "mbômbi m'kpwo"
+      },
+      "G024": {
+        "fr": "découvert",
+        "text": "ndab ntiya"
+      },
+      "G025": {
+        "fr": "plafond",
+        "text": "nkpwan"
+      },
+      "G026": {
+        "fr": "limite journalière",
+        "text": "nkpwan wé ǹndimi"
+      },
+      "G027": {
+        "fr": "franc CFA",
+        "text": "faran CFA"
+      },
+      "G028": {
+        "fr": "espèces",
+        "text": "bidīmbi"
+      },
+      "G029": {
+        "fr": "chèque",
+        "text": "ndap kalata"
+      },
+      "G030": {
+        "fr": "carte bancaire",
+        "text": "kalata ngalata"
+      },
+      "G031": {
+        "fr": "carte prépayée",
+        "text": "kalata ṅgulu"
+      },
+      "G032": {
+        "fr": "distributeur automatique (GAB)",
+        "text": "ngela m'bômbô"
+      },
+      "G033": {
+        "fr": "agence",
+        "text": "ndap nson"
+      },
+      "G034": {
+        "fr": "agent",
+        "text": "mot a m'bômbô"
+      },
+      "G035": {
+        "fr": "guichet",
+        "text": "nlem"
+      },
+      "G036": {
+        "fr": "caissier",
+        "text": "mot a mbômbi"
+      },
+      "G037": {
+        "fr": "conseiller",
+        "text": "mot a mbalal"
+      },
+      "G038": {
+        "fr": "numéro de compte",
+        "text": "nnom nsisim"
+      },
+      "G039": {
+        "fr": "numéro de téléphone",
+        "text": "nnom telefòn"
+      },
+      "G040": {
+        "fr": "ouverture de compte",
+        "text": "kôt nsisim"
+      },
+      "G041": {
+        "fr": "clôture de compte",
+        "text": "tsug nsisim"
+      },
+      "G042": {
+        "fr": "pièce d'identité",
+        "text": "kalata ṅgulu dzo"
+      },
+      "G043": {
+        "fr": "justificatif",
+        "text": "kalata nsisim"
+      },
+      "G044": {
+        "fr": "signature",
+        "text": "nnom nlem"
+      },
+      "G045": {
+        "fr": "procuration",
+        "text": "ngale"
+      },
+      "G046": {
+        "fr": "frais",
+        "text": "mbɔŋ"
+      },
+      "G047": {
+        "fr": "commission",
+        "text": "mbɔŋ"
+      },
+      "G048": {
+        "fr": "frais de tenue de compte",
+        "text": "mbongo mboŋ abora"
+      },
+      "G049": {
+        "fr": "frais de transfert",
+        "text": "mbongo ntok"
+      },
+      "G050": {
+        "fr": "frais de retrait",
+        "text": "mbongo njɔp"
+      },
+      "G051": {
+        "fr": "taxe",
+        "text": "ndóŋ"
+      },
+      "G052": {
+        "fr": "gratuit",
+        "text": "mfi ya wó"
+      },
+      "G053": {
+        "fr": "tarif",
+        "text": "nyaŋga"
+      },
+      "G054": {
+        "fr": "barème",
+        "text": "mvôki nyaŋga"
+      },
+      "G055": {
+        "fr": "montant total",
+        "text": "mbúm wólə"
+      },
+      "G056": {
+        "fr": "code secret (PIN)",
+        "text": "kód mgbéba"
+      },
+      "G057": {
+        "fr": "code de validation",
+        "text": "kod a nlem"
+      },
+      "G058": {
+        "fr": "mot de passe",
+        "text": "fólɔ"
+      },
+      "G059": {
+        "fr": "arnaque",
+        "text": "mbili"
+      },
+      "G060": {
+        "fr": "fraude",
+        "text": "mbili"
+      },
+      "G061": {
+        "fr": "faux message",
+        "text": "nkulu biñga"
+      },
+      "G062": {
+        "fr": "faux agent",
+        "text": "mfiɛm ngɛn"
+      },
+      "G063": {
+        "fr": "ne jamais communiquer",
+        "text": "se zili mɔ"
+      },
+      "G064": {
+        "fr": "compte bloqué",
+        "text": "kɔ́mpə nyàmbə"
+      },
+      "G065": {
+        "fr": "carte bloquée",
+        "text": "kad a kpak"
+      },
+      "G066": {
+        "fr": "carte volée",
+        "text": "kad a yib"
+      },
+      "G067": {
+        "fr": "opposition",
+        "text": "akulu"
+      },
+      "G068": {
+        "fr": "perte (carte ou téléphone)",
+        "text": "asuw"
+      },
+      "G069": {
+        "fr": "sécurité",
+        "text": "nsám"
+      },
+      "G070": {
+        "fr": "vérification",
+        "text": "fə́b"
+      },
+      "G071": {
+        "fr": "identifiant",
+        "text": "nɔ́m a nìny"
+      },
+      "G072": {
+        "fr": "carte SIM",
+        "text": "sím"
+      },
+      "G073": {
+        "fr": "connexion suspecte",
+        "text": "bɔ́ŋ a m̀bɔ́g"
+      },
+      "G074": {
+        "fr": "appeler immédiatement",
+        "text": "kóbɔ tɔ́b"
+      },
+      "G075": {
+        "fr": "attention",
+        "text": "kódə́m"
+      },
+      "G076": {
+        "fr": "prêt",
+        "text": "ndóŋ"
+      },
+      "G077": {
+        "fr": "microcrédit",
+        "text": "ndóŋ m̀fún"
+      },
+      "G078": {
+        "fr": "emprunt",
+        "text": "ndóŋ"
+      },
+      "G079": {
+        "fr": "échéance",
+        "text": "ndág ósú"
+      },
+      "G080": {
+        "fr": "mensualité",
+        "text": "ndóŋ o mbə́g"
+      },
+      "G081": {
+        "fr": "remboursement",
+        "text": "fə́b ndóŋ"
+      },
+      "G082": {
+        "fr": "taux d'intérêt",
+        "text": "mbə́b ndóŋ"
+      },
+      "G083": {
+        "fr": "intérêt",
+        "text": "mbə́b"
+      },
+      "G084": {
+        "fr": "pénalité",
+        "text": "m̀fə́g"
+      },
+      "G085": {
+        "fr": "retard de paiement",
+        "text": "mbɔ́g ndág"
+      },
+      "G086": {
+        "fr": "garantie",
+        "text": "ndə́b"
+      },
+      "G087": {
+        "fr": "caution",
+        "text": "m̀bɔ́l"
+      },
+      "G088": {
+        "fr": "apport",
+        "text": "m̀fə́g ósú"
+      },
+      "G089": {
+        "fr": "durée du prêt",
+        "text": "mbwál ndóŋ"
+      },
+      "G090": {
+        "fr": "capital",
+        "text": "ndóŋ ósú"
+      },
+      "G091": {
+        "fr": "dette",
+        "text": "ndóŋ"
+      },
+      "G092": {
+        "fr": "reste à payer",
+        "text": "ndáŋ fə́b"
+      },
+      "G093": {
+        "fr": "épargne",
+        "text": "m̀və́m"
+      },
+      "G100": {
+        "fr": "tontine",
+        "text": "ntụtụt"
+      },
+      "G118": {
+        "fr": "service client",
+        "text": "bòŋgə̀bòŋ bò mənə̀bə́r"
+      },
+      "G119": {
+        "fr": "rendez-vous",
+        "text": "ndə̀má"
+      },
+      "G120": {
+        "fr": "horaires",
+        "text": "mvɔ̀g m̀bə̀r"
+      },
+      "G121": {
+        "fr": "ouvert",
+        "text": "və́ bɔ́b"
+      },
+      "G122": {
+        "fr": "fermé",
+        "text": "bə́m"
+      },
+      "G123": {
+        "fr": "jour férié",
+        "text": "ndɔ́vò jwá"
+      },
+      "G124": {
+        "fr": "urgent",
+        "text": "m̀fə́fə́l"
+      },
+      "G125": {
+        "fr": "aide",
+        "text": "mvə̀là"
+      },
+      "G126": {
+        "fr": "erreur",
+        "text": "nsə̂m"
+      },
+      "G127": {
+        "fr": "échec",
+        "text": "awɔ́"
+      },
+      "G128": {
+        "fr": "réussite",
+        "text": "ŋgə́n"
+      },
+      "G129": {
+        "fr": "annuler",
+        "text": "kpúm"
+      },
+      "G130": {
+        "fr": "confirmer",
+        "text": "tòm"
+      },
+      "G131": {
+        "fr": "valider",
+        "text": "tə̀m"
+      },
+      "G132": {
+        "fr": "retour",
+        "text": "nsə́m"
+      },
+      "G133": {
+        "fr": "continuer",
+        "text": "yàŋ"
+      },
+      "G134": {
+        "fr": "suivant",
+        "text": "mwàt"
+      },
+      "G135": {
+        "fr": "oui",
+        "text": "ɛɛ"
+      },
+      "G136": {
+        "fr": "non",
+        "text": "àyɛ̀"
+      },
+      "G137": {
+        "fr": "merci",
+        "text": "akiba"
+      },
+      "G138": {
+        "fr": "bonjour",
+        "text": "mbɔ́m"
+      },
+      "G139": {
+        "fr": "au revoir",
+        "text": "sɛ́b"
+      },
+      "G140": {
+        "fr": "s'il vous plaît",
+        "text": "ndò"
+      },
+      "G141": {
+        "fr": "réessayer",
+        "text": "yə́g bɛ́"
+      },
+      "G142": {
+        "fr": "nombre",
+        "text": "bɔg"
+      },
+      "G143": {
+        "fr": "montant",
+        "text": "mbɔŋ"
+      },
+      "G144": {
+        "fr": "pourcentage",
+        "text": "nkɔ́bɔ"
+      },
+      "G145": {
+        "fr": "date",
+        "text": "da"
+      },
+      "G146": {
+        "fr": "heure",
+        "text": "wulu"
+      },
+      "G147": {
+        "fr": "mois",
+        "text": "ngonda"
+      },
+      "G148": {
+        "fr": "année",
+        "text": "mbu"
+      },
+      "G149": {
+        "fr": "aujourd'hui",
+        "text": "nnɛm"
+      },
+      "G150": {
+        "fr": "demain",
+        "text": "jo"
+      },
+      "G151": {
+        "fr": "hier",
+        "text": "ŋgbe"
+      },
+      "G152": {
+        "fr": "avant le",
+        "text": "mbá mbə́"
+      },
+      "G153": {
+        "fr": "après le",
+        "text": "mbə́ mgbwá"
+      },
+      "G154": {
+        "fr": "chaque mois",
+        "text": "ngɔ́ɔ̀ yɛ́ fɔ́"
+      },
+      "G155": {
+        "fr": "par jour",
+        "text": "əlɔ́ yɛ́ fɔ́"
+      },
+      "M001": {
+        "fr": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Bɔg {MONTANT_1} bə akə a {DATE_1}. Afəla: {MONTANT_2}. Mbono mvé: {MONTANT_3}."
+      },
+      "M002": {
+        "fr": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Mvəvə {MONTANT_1} bə akə {DATE_1}. Mbono mvé: {MONTANT_2}."
+      },
+      "M003": {
+        "fr": "Votre solde est de {MONTANT_1}.",
+        "text": "Mbono wò mbe {MONTANT_1}."
+      },
+      "M004": {
+        "fr": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Wọ́ ǹ́ ńtọ́ {MONTANT_1} a {NOM_1} {DATE_1}. Ńtōm nsisî: {MONTANT_2}."
+      },
+      "M005": {
+        "fr": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "O tɔm {MONTANT_1} ai {NOM_1}. Afəla: {MONTANT_2}. Mbono mvé: {MONTANT_3}."
+      },
+      "M006": {
+        "fr": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler.",
+        "text": "Mvóe mbùgú {MONTANT_1} nà {NOM_1}. Ffí: {MONTANT_2}. Fà 1 mènné, 2 mènné ǹnā."
+      },
+      "M007": {
+        "fr": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}.",
+        "text": "Nnam bə awu: mbono wò a yi mbe. Mbono wò mbe {MONTANT_1}."
+      },
+      "M008": {
+        "fr": "Transfert annulé. Aucun montant n'a été débité.",
+        "text": "Nnam bə awu. Mbono mvé a kuli mbe."
+      },
+      "M009": {
+        "fr": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur.",
+        "text": "Kɔd wò a bə abal. Nə a mbe mbe wo, nkuan ngɔn wò."
+      },
+      "M010": {
+        "fr": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera.",
+        "text": "Kə kapa kɔd wò. Muto mbe a nna a yi wo kili wo."
+      },
+      "M011": {
+        "fr": "Votre code de validation est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Kɔd wò a bə a nsi. Kə kili wə mbo."
+      },
+      "M012": {
+        "fr": "Attention arnaque : personne ne vous demandera votre code par message ou par appel.",
+        "text": "Kàd mbebo: mọ́ mót m̀ bə́gə́ bíi nòto wọ́ m̀bọ́g m̀bùgú."
+      },
+      "M013": {
+        "fr": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité.",
+        "text": "Mvɔk ə bə abal a bə akə a mbono wò. Mbono wò a bə akə."
+      },
+      "M023": {
+        "fr": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée.",
+        "text": "Ntīm a {MONTANT_1} m̀bù bə {DATE_1}. Nə́m a ḿbəg, {MONTANT_2} m̀bə́g fíf."
+      },
+      "M039": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Akiba a yôni bisô bi bETH."
+      },
+      "M040": {
+        "fr": "Votre numéro {TEL_1} est enregistré.",
+        "text": "Nnom ô {TEL_1} m̀bôm."
+      },
+      "M041": {
+        "fr": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler",
+        "text": "Nlômin na {TEL_1} : {MONTANT_1}. Ngê : {MONTANT_2}. 1. Timbil 2. Zibo"
+      },
+      "M042": {
+        "fr": "Insérez votre carte.",
+        "text": "Fukata kalata ya mô."
+      },
+      "M043": {
+        "fr": "Choisissez votre langue.",
+        "text": "Solô kalate ya kôm."
+      },
+      "M044": {
+        "fr": "Entrez votre code secret. Cachez le clavier avec votre main.",
+        "text": "Kaka kod wô. Subgata nkuan n'abum."
+      },
+      "M045": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Solô ngôngô ya wos."
+      },
+      "M046": {
+        "fr": "Retirez votre argent.",
+        "text": "Wos ngôngô ya mô."
+      },
+      "M047": {
+        "fr": "Reprenez votre carte.",
+        "text": "Kôm kalata ya mô."
+      },
+      "M048": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Wô'ô é kamba ya kôm?"
+      },
+      "M049": {
+        "fr": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer.",
+        "text": "Wos ya {MONTANT_1}. Ngê : {MONTANT_2}. Fôg a Kalata m̀bôm."
+      },
+      "M050": {
+        "fr": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer.",
+        "text": "Ngôngô ya mô é bi {MONTANT_1}. Fôg a Timbil."
+      },
+      "M051": {
+        "fr": "Opération impossible : le distributeur n'a plus de billets.",
+        "text": "A mboran bi tshut : ngôngô é véngé."
+      },
+      "M052": {
+        "fr": "Votre carte est retenue. Contactez votre banque.",
+        "text": "Kalata ya mô é kùp. Nya nsisim bank."
+      },
+      "M053": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Mbolo, mbon mbeŋ wé?"
+      },
+      "M054": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Fukata nkal ya mô."
+      },
+      "M055": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Wô'ô é kôm nnom?"
+      },
+      "M056": {
+        "fr": "Les frais d'ouverture de compte sont de {MONTANT_1}.",
+        "text": "Ngê ya kôm nnom é bi {MONTANT_1}."
+      },
+      "M057": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Kôm é fufub, a m̀bôm."
+      },
+      "M058": {
+        "fr": "Votre réclamation est enregistrée. Référence : {REF_1}.",
+        "text": "Kamba ya mô é m̀bôm. Nnom : {REF_1}."
+      },
+      "M059": {
+        "fr": "L'agence est ouverte de {HEURE_1} à {HEURE_2}.",
+        "text": "Mbaŋ a zibi tshut {HEURE_1} a {HEURE_2}."
+      },
+      "M060": {
+        "fr": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}.",
+        "text": "Ntsom wô ô m̀bôm {DATE_1} a {HEURE_1}."
+      },
+      "M061": {
+        "fr": "Téléchargez notre application pour consulter votre compte à tout moment.",
+        "text": "Kôta application ya m̀bôm nnom."
+      },
+      "M062": {
+        "fr": "Nos agences sont fermées les jours fériés.",
+        "text": "Mbaŋ bi m̀bôm fûb."
+      },
+      "M063": {
+        "fr": "Pour toute question, appelez le service client au {TEL_1}.",
+        "text": "Mbaŋ a mβοŋ ai mβοŋ, kɔlɔ abɔm {TEL_1}."
+      },
+      "M064": {
+        "fr": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}.",
+        "text": "Nkaŋan: yoŋ a nda nsisim ai bi a mveŋ {TAUX_1}."
+      },
+      "P025": {
+        "fr": "Ce prêt doit être remboursé avec des intérêts.",
+        "text": "Mə̀bəl ḿbú ḿnə́ m̀və̀ŋ à bógó m̀və̀l."
+      },
+      "P026": {
+        "fr": "Lisez bien le contrat avant de signer.",
+        "text": "Kàgə̀ ǹtì kə̀d m̀bə̀g ḿgí ḿbòŋ wá m̀kə́b."
+      },
+      "P027": {
+        "fr": "Vous pouvez poser une question avant de signer.",
+        "text": "Wá nyìŋ m̀bùbù m̀və̀l wá m̀kə́b."
+      },
+      "P028": {
+        "fr": "Vous pouvez faire une réclamation si vous avez un problème.",
+        "text": "Wá nyìŋ kàb ḿbòŋ wá m̀kə́b wə̀l."
+      },
+      "P029": {
+        "fr": "Ne signez rien que vous ne comprenez pas.",
+        "text": "Kə̀d ḿgí m̀və̀l wá nyìŋ m̀wə̀l."
+      },
+      "P030": {
+        "fr": "Cachez le clavier avec votre main quand vous tapez votre code.",
+        "text": "Káà bə̀b wá nyìŋ m̀gí ḿbòŋ wá m̀bə̀b."
+      },
+      "P091": {
+        "fr": "Oui.",
+        "text": "Ee"
+      },
+      "P092": {
+        "fr": "Non.",
+        "text": "Ate"
+      },
+      "P093": {
+        "fr": "Merci.",
+        "text": "Akiba"
+      },
+      "P094": {
+        "fr": "Au revoir.",
+        "text": "Mba"
+      },
+      "G094": {
+        "fr": "épargne bloquée",
+        "text": "ndang akàl"
+      },
+      "G095": {
+        "fr": "dépôt à terme",
+        "text": "ndang akàl m̀bòn"
+      },
+      "G096": {
+        "fr": "assurance",
+        "text": "nsàngan"
+      },
+      "G097": {
+        "fr": "prime d'assurance",
+        "text": "mbóngò ǹsàngan"
+      },
+      "G098": {
+        "fr": "sinistre",
+        "text": "m̀biè"
+      },
+      "G099": {
+        "fr": "couverture",
+        "text": "nsàngan"
+      },
+      "G101": {
+        "fr": "accordé",
+        "text": "biéé"
+      },
+      "G102": {
+        "fr": "refusé",
+        "text": "në̀mbò"
+      },
+      "G103": {
+        "fr": "portefeuille mobile",
+        "text": "akàl m̀bòbò"
+      },
+      "G104": {
+        "fr": "mobile money",
+        "text": "mòbil mòni"
+      },
+      "G105": {
+        "fr": "agent mobile money",
+        "text": "ngə̀l mòbil mòni"
+      },
+      "G106": {
+        "fr": "dépôt chez l'agent",
+        "text": "tòbò akàl ngə̀l"
+      },
+      "G107": {
+        "fr": "retrait chez l'agent",
+        "text": "jòlò akàl ngə̀l"
+      },
+      "G108": {
+        "fr": "crédit de communication",
+        "text": "bifòn bi ǹkà"
+      },
+      "G109": {
+        "fr": "forfait internet",
+        "text": "ǹtə̀m intɛrnɛt"
+      },
+      "G110": {
+        "fr": "USSD (code étoile dièse)",
+        "text": "usud"
+      },
+      "G111": {
+        "fr": "SMS",
+        "text": "mèsaj"
+      },
+      "G112": {
+        "fr": "application",
+        "text": "aplikasioòn"
+      },
+      "G113": {
+        "fr": "réseau",
+        "text": "ǹtɛn"
+      },
+      "G114": {
+        "fr": "hors connexion",
+        "text": "bə̀zə̀"
+      },
+      "G115": {
+        "fr": "recharge",
+        "text": "tòbò akàl"
+      },
+      "G116": {
+        "fr": "réclamation",
+        "text": "mkàb"
+      },
+      "G117": {
+        "fr": "médiation",
+        "text": "mvumò"
+      },
+      "M014": {
+        "fr": "Votre carte a été bloquée à votre demande.",
+        "text": "Card yɔ́ a bɛ́ ki mbege mbege a mita mwa wɔ́."
+      },
+      "M015": {
+        "fr": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Mbege mi {MONTANT_1} a {LIEU_1} a {DATE_1}. Nɛn solde: {MONTANT_2}."
+      },
+      "M016": {
+        "fr": "Facture {REF_1} payée : {MONTANT_1}. Merci.",
+        "text": "Facture {REF_1} bi {MONTANT_1}. Akiba."
+      },
+      "M017": {
+        "fr": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}.",
+        "text": "Achat credit {MONTANT_1} bi yia. Nɛn solde: {MONTANT_2}."
+      },
+      "M018": {
+        "fr": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}.",
+        "text": "Virement {MONTANT_1} a yia a compte wɔ́ a {DATE_1}."
+      },
+      "M019": {
+        "fr": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}.",
+        "text": "Virement {MONTANT_1} a yia {NOM_1} a {DATE_1}. Frais: {MONTANT_2}."
+      },
+      "M020": {
+        "fr": "Votre relevé du mois est disponible. Solde : {MONTANT_1}.",
+        "text": "Relevé wɔ́ mɔ́ a ne nlem. Solde: {MONTANT_1}."
+      },
+      "M021": {
+        "fr": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}.",
+        "text": "Frais compte {MONTANT_1} bi yia a {DATE_1}."
+      },
+      "M022": {
+        "fr": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}.",
+        "text": "Prêt wɔ́ {MONTANT_1} a ne. Taux: {TAUX_1}. Première échéance a {DATE_1}."
+      },
+      "M024": {
+        "fr": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser.",
+        "text": "Remboursement {MONTANT_1} bi yia. A ne wɔ́ {MONTANT_2} a bɛ."
+      },
+      "M025": {
+        "fr": "Votre demande de prêt a été refusée.",
+        "text": "Demande prêt yɔ́ a bɛ́ ki."
+      },
+      "M026": {
+        "fr": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}.",
+        "text": "Intérêts {MONTANT_1} bi yia a compte épargne taux {TAUX_1}."
+      },
+      "M027": {
+        "fr": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser.",
+        "text": "Compte wɔ́ a ne découvert {MONTANT_1}. Bɛle."
+      },
+      "M028": {
+        "fr": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}.",
+        "text": "Rappel: paiement prime assurance {MONTANT_1} mbɛl {DATE_1}."
+      },
+      "M029": {
+        "fr": "Votre assurance est active jusqu'au {DATE_1}.",
+        "text": "Assurance yɔ́ a ne active mbɛl {DATE_1}."
+      },
+      "M030": {
+        "fr": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Retrait {MONTANT_1} chez agent {NOM_1}. Frais: {MONTANT_2}. Nouveau solde: {MONTANT_3}."
+      },
+      "M031": {
+        "fr": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide",
+        "text": "Mbote. 1. Solde 2. Tuma mɔni 3. Retrait 4. Fɔgɔ facture 5. Aide"
+      },
+      "M032": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Kamba numéro bénéficiaire."
+      },
+      "M033": {
+        "fr": "Entrez le montant à envoyer.",
+        "text": "Kamba montant a tuma."
+      },
+      "M034": {
+        "fr": "Entrez votre code secret.",
+        "text": "Kamba code secret wɔ́."
+      },
+      "M035": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Code secret a neki mヴォ. Yéé."
+      },
+      "M036": {
+        "fr": "Opération réussie.",
+        "text": "Opération a nyɛl."
+      },
+      "M037": {
+        "fr": "Opération échouée. Veuillez réessayer plus tard.",
+        "text": "Opération a bɛ ki. Yéé mbeta."
+      },
+      "M038": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Service a neki mbe."
+      }
+    },
+    "fub": {
+      "P001": {
+        "fr": "Ne communiquez jamais votre code secret à personne.",
+        "text": "Wana a holtu kod siri mo feewde e hay gooto."
+      },
+      "P002": {
+        "fr": "Personne de la banque ne vous demandera votre code secret.",
+        "text": "H hay gooto to banke noddata ma ngam naamde kod siri ma."
+      },
+      "P003": {
+        "fr": "Personne de l'opérateur ne vous demandera votre code secret.",
+        "text": "Hay gooto e kampani oo naamdata ma kod siri ma."
+      },
+      "P004": {
+        "fr": "Attention : c'est peut-être une arnaque.",
+        "text": "Reene : ndee ko pewngal."
+      },
+      "P005": {
+        "fr": "Si quelqu'un vous demande votre code par téléphone, raccrochez.",
+        "text": "Si gooto naamdi ma kod siri ma e telefon, nyifi telefon oo."
+      },
+      "P006": {
+        "fr": "Votre code est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Kod ma ina yiyee e ekraŋ. Wana a hokku gooto."
+      },
+      "P007": {
+        "fr": "Vérifiez le montant avant de confirmer.",
+        "text": "Ɓetto ceede ɗe hade ma tabitinde."
+      },
+      "P008": {
+        "fr": "Vérifiez le nom du bénéficiaire avant de confirmer.",
+        "text": "Ɓetto innde jaɓɓotooɗo o hade ma tabitinde."
+      },
+      "P009": {
+        "fr": "Vérifiez les frais avant de confirmer.",
+        "text": "Ɓetto njeenaari ndii hade ma tabitinde."
+      },
+      "P010": {
+        "fr": "Voulez-vous vraiment envoyer cet argent ?",
+        "text": "Aɗa yiɗi goonga neldugol ndee ceede?"
+      },
+      "P011": {
+        "fr": "Appuyez sur un pour confirmer.",
+        "text": "Diiwra gooto ngam tabitinde."
+      },
+      "P012": {
+        "fr": "Appuyez sur deux pour annuler.",
+        "text": "Diiwra ɗiɗi ngam dartinde."
+      },
+      "P013": {
+        "fr": "L'opération est annulée. Votre argent n'a pas bougé.",
+        "text": "Golle ɗee dartinaama. Ceede ma murtataaki."
+      },
+      "P014": {
+        "fr": "L'opération est réussie.",
+        "text": "Golle ɗeemoƴƴii."
+      },
+      "P015": {
+        "fr": "L'opération a échoué. Votre argent n'a pas été débité.",
+        "text": "Golle ɗee bonii. Ceede ma yoɓetaake."
+      },
+      "P016": {
+        "fr": "Votre solde est insuffisant.",
+        "text": "Ceede ma ina famɗi."
+      },
+      "P017": {
+        "fr": "Votre compte est bloqué par sécurité.",
+        "text": "Asklu ma daanaama ngam kisal."
+      },
+      "P018": {
+        "fr": "Votre carte est bloquée.",
+        "text": "Kartal ma daanaama."
+      },
+      "P019": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre banque.",
+        "text": "Si ko aan wonaa, noddu banke ma jooni jooni."
+      },
+      "P020": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre opérateur.",
+        "text": "Si ko aan wonaa, noddu kampani ma jooni jooni."
+      },
+      "P021": {
+        "fr": "Il y a des frais pour cette opération.",
+        "text": "Njeenaari ina woodi ngam ndee golle."
+      },
+      "P022": {
+        "fr": "Cette opération est gratuite.",
+        "text": "Ndee golle ko yoɓataake."
+      },
+      "P023": {
+        "fr": "Vous devez payer avant la date indiquée.",
+        "text": "Aɗa waji yoɓde ko adii ñalngu nguu."
+      },
+      "P024": {
+        "fr": "Si vous payez en retard, vous payez une pénalité.",
+        "text": "Si a yoɓii caggal ñalngu, aɗa yoɓa sara."
+      },
+      "P025": {
+        "fr": "Ce prêt doit être remboursé avec des intérêts.",
+        "text": "Nyaamugo oo ina mari yoɓte."
+      },
+      "P026": {
+        "fr": "Lisez bien le contrat avant de signer.",
+        "text": "Tartee yarɓaare ndee e teddugal adan ko mbinndoton."
+      },
+      "P027": {
+        "fr": "Vous pouvez poser une question avant de signer.",
+        "text": "On waawi naamdude naamnal adan ko mbinndoton."
+      },
+      "P028": {
+        "fr": "Vous pouvez faire une réclamation si vous avez un problème.",
+        "text": "On waawi wiide ko metti e mon si taw ko boni."
+      },
+      "P029": {
+        "fr": "Ne signez rien que vous ne comprenez pas.",
+        "text": "Wata on mbinndu huundende ndeon faamaani."
+      },
+      "P030": {
+        "fr": "Cachez le clavier avec votre main quand vous tapez votre code.",
+        "text": "Suuɗeɓe caabiwal ngal e junngo mon tuma ko mbinndoton kode mon."
+      },
+      "P031": {
+        "fr": "Vous avez reçu",
+        "text": "On keɓii"
+      },
+      "P032": {
+        "fr": "Vous avez envoyé",
+        "text": "On neldii"
+      },
+      "P033": {
+        "fr": "Vous allez envoyer",
+        "text": "On neldata"
+      },
+      "P034": {
+        "fr": "Vous allez retirer",
+        "text": "On yaltinta"
+      },
+      "P035": {
+        "fr": "Vous avez déposé",
+        "text": "On waɗii"
+      },
+      "P036": {
+        "fr": "Votre solde est de",
+        "text": "Keɓal mon ko"
+      },
+      "P037": {
+        "fr": "Votre nouveau solde est de",
+        "text": "Keɓal mon kesal ko"
+      },
+      "P038": {
+        "fr": "Les frais sont de",
+        "text": "Njoddi ndii ko"
+      },
+      "P039": {
+        "fr": "Le montant total est de",
+        "text": "Poti fuu ko"
+      },
+      "P040": {
+        "fr": "à",
+        "text": "to"
+      },
+      "P041": {
+        "fr": "de la part de",
+        "text": "gila e"
+      },
+      "P042": {
+        "fr": "le",
+        "text": "nyalnde"
+      },
+      "P043": {
+        "fr": "chez l'agent",
+        "text": "to wakiliijo"
+      },
+      "P044": {
+        "fr": "à l'agence",
+        "text": "to biro"
+      },
+      "P045": {
+        "fr": "Le taux est de",
+        "text": "Pellel ngel ko"
+      },
+      "P046": {
+        "fr": "pour cent",
+        "text": "teemedere kala"
+      },
+      "P047": {
+        "fr": "La première échéance est le",
+        "text": "Yontere adannde ndee ko"
+      },
+      "P048": {
+        "fr": "Il vous reste à rembourser",
+        "text": "Ko heddi e mon yoɓugo ko"
+      },
+      "P049": {
+        "fr": "La pénalité est de",
+        "text": "Sarɗi on ko"
+      },
+      "P050": {
+        "fr": "Le paiement est confirmé pour",
+        "text": "Yoɓugol ngol tabitinaama ngam"
+      },
+      "P051": {
+        "fr": "Bienvenue.",
+        "text": "A jam anndinaama."
+      },
+      "P052": {
+        "fr": "Choisissez votre langue.",
+        "text": "Cuɓo ɗemngal ma."
+      },
+      "P053": {
+        "fr": "Pour le solde, tapez un.",
+        "text": "Ngam kaalis jeyiɗo, doke gooto."
+      },
+      "P054": {
+        "fr": "Pour envoyer de l'argent, tapez deux.",
+        "text": "Ngam neldude kaalis, doke ɗiɗi."
+      },
+      "P055": {
+        "fr": "Pour un retrait, tapez trois.",
+        "text": "Ngam yaltingol kaalis, doke tati."
+      },
+      "P056": {
+        "fr": "Pour payer une facture, tapez quatre.",
+        "text": "Ngam yoɓde faktu, doke nayi."
+      },
+      "P057": {
+        "fr": "Pour de l'aide, tapez cinq.",
+        "text": "Ngam ballal, doke joyi."
+      },
+      "P058": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Naatnu limngal keɓoowo o."
+      },
+      "P059": {
+        "fr": "Entrez le montant.",
+        "text": "Naatnu keewal ngal."
+      },
+      "P060": {
+        "fr": "Entrez votre code secret.",
+        "text": "Naatnu siri ma."
+      },
+      "P061": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Siri moƴƴaa. Fuɗɗto."
+      },
+      "P062": {
+        "fr": "Insérez votre carte.",
+        "text": "Naatnu kaati ma."
+      },
+      "P063": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Cuɓo keewal ngal yaltinta."
+      },
+      "P064": {
+        "fr": "Retirez votre argent.",
+        "text": "Yaltin kaalis ma."
+      },
+      "P065": {
+        "fr": "Reprenez votre carte.",
+        "text": "Heɓtu kaati ma."
+      },
+      "P066": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Aɗa yiɗi seedeeji?"
+      },
+      "P067": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "A jaraama e huutoraade golle amen."
+      },
+      "P068": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Golle ɗee ngalaa jooni."
+      },
+      "P069": {
+        "fr": "Veuillez réessayer plus tard.",
+        "text": "Fuɗɗto caggal."
+      },
+      "P070": {
+        "fr": "Pour parler à un conseiller, tapez zéro.",
+        "text": "Ngam haaldude e balloowo, doke zero."
+      },
+      "P071": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Jam tiri, hol no mbaawmi ballude ma?"
+      },
+      "P072": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Holtu kaatorgal anndital ma."
+      },
+      "P073": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "A aɗata konte?"
+      },
+      "P074": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Tiriya to, mbolon to."
+      },
+      "P075": {
+        "fr": "Voulez-vous que je répète ?",
+        "text": "Aɗa yiɗi mi wi'ita?"
+      },
+      "P076": {
+        "fr": "Je vais vous expliquer lentement.",
+        "text": "Mi faamminay ma seeɗa-seeɗa."
+      },
+      "P077": {
+        "fr": "Avez-vous compris ?",
+        "text": "A faami?"
+      },
+      "P078": {
+        "fr": "Votre réclamation est enregistrée.",
+        "text": "Wullugo maɗa nastinaama."
+      },
+      "P079": {
+        "fr": "Votre rendez-vous est confirmé.",
+        "text": "Haaɓre maɗa tabitinaama."
+      },
+      "P080": {
+        "fr": "L'agence est ouverte de huit heures à dix-sept heures.",
+        "text": "Jaŋorde ndee udditake gila saa'i jeeɗiɗi haa saa'i sappo e joyi."
+      },
+      "P081": {
+        "fr": "Quelqu'un vous a appelé pour un gain ? C'est une arnaque.",
+        "text": "Mo noddi ma ngam keɓal? Ko fiya-fiyoo."
+      },
+      "P082": {
+        "fr": "Vous n'avez rien gagné. Ne donnez pas votre code.",
+        "text": "A heɓaa hay huunde. Tawa dokku pinndirgal maɗa."
+      },
+      "P083": {
+        "fr": "Un faux agent vous demande de l'argent ? Ne payez pas.",
+        "text": "Gooɗotooɗo laawaangal ina naamnda ma ceede? Tawa yoɓ."
+      },
+      "P084": {
+        "fr": "Ne cliquez pas sur un lien reçu par message.",
+        "text": "Tawa cuɗɗo haa jokkorgol ngol mballniraa e ɓataake."
+      },
+      "P085": {
+        "fr": "Ne prêtez pas votre carte ni votre téléphone.",
+        "text": "Tawa ceppirgal maɗa walaa tan ko cinndel maɗa."
+      },
+      "P086": {
+        "fr": "En cas de doute, appelez le numéro officiel de votre banque.",
+        "text": "To sikkii, noddu limngal laamu banke maɗa."
+      },
+      "P087": {
+        "fr": "Votre banque ne vous demande jamais votre code secret par message.",
+        "text": "Banke maɗa naamndataa pinndirgal maɗa e ɓataake."
+      },
+      "P088": {
+        "fr": "Ne partagez jamais votre code, même avec un ami.",
+        "text": "Tawa accita pinndirgal maɗa, hay to ko e kaɲiraawo."
+      },
+      "P089": {
+        "fr": "Si vous avez perdu votre carte, appelez tout de suite.",
+        "text": "To ceppirgal maɗa majjii, noddu jooni."
+      },
+      "P090": {
+        "fr": "Si votre téléphone est volé, bloquez votre compte.",
+        "text": "To cinndel maɗa yujjii, daŋtu konte maɗa."
+      },
+      "P091": {
+        "fr": "Oui.",
+        "text": "Eey."
+      },
+      "P092": {
+        "fr": "Non.",
+        "text": "Alaa."
+      },
+      "P093": {
+        "fr": "Merci.",
+        "text": "A jaraama."
+      },
+      "P094": {
+        "fr": "Au revoir.",
+        "text": "Sai jaɓɓude."
+      },
+      "P095": {
+        "fr": "S'il vous plaît.",
+        "text": "Too."
+      },
+      "P096": {
+        "fr": "Un instant, s'il vous plaît.",
+        "text": "Seɗa tan, too."
+      },
+      "P097": {
+        "fr": "Je ne comprends pas. Pouvez-vous répéter ?",
+        "text": "Mi faamtaa. A waawi kikkude?"
+      },
+      "P098": {
+        "fr": "Ce n'est pas possible pour le moment.",
+        "text": "Ɗum waawaaka jooni."
+      },
+      "P099": {
+        "fr": "Revenez demain, s'il vous plaît.",
+        "text": "Artu janngo, njaaje."
+      },
+      "P100": {
+        "fr": "Bonne journée.",
+        "text": "Nyande moƴƴere."
+      },
+      "N0000000": {
+        "fr": "0",
+        "text": "zero"
+      },
+      "N0000001": {
+        "fr": "1",
+        "text": "go'o"
+      },
+      "N0000002": {
+        "fr": "2",
+        "text": "ɗiɗi"
+      },
+      "N0000003": {
+        "fr": "3",
+        "text": "tati"
+      },
+      "N0000004": {
+        "fr": "4",
+        "text": "nayi"
+      },
+      "N0000005": {
+        "fr": "5",
+        "text": "joweenayi"
+      },
+      "N0000006": {
+        "fr": "6",
+        "text": "joweego'o"
+      },
+      "N0000007": {
+        "fr": "7",
+        "text": "joweediɗi"
+      },
+      "N0000008": {
+        "fr": "8",
+        "text": "joweetati"
+      },
+      "N0000009": {
+        "fr": "9",
+        "text": "joweenayi"
+      },
+      "N0000010": {
+        "fr": "10",
+        "text": "sappo"
+      },
+      "N0000011": {
+        "fr": "11",
+        "text": "sappo e go'o"
+      },
+      "N0000012": {
+        "fr": "12",
+        "text": "sappo e ɗiɗi"
+      },
+      "N0000013": {
+        "fr": "13",
+        "text": "sappo e tati"
+      },
+      "N0000014": {
+        "fr": "14",
+        "text": "sappo e nayi"
+      },
+      "N0000015": {
+        "fr": "15",
+        "text": "sappo e joweenayi"
+      },
+      "N0000016": {
+        "fr": "16",
+        "text": "sappo e joweego'o"
+      },
+      "N0000017": {
+        "fr": "17",
+        "text": "sappo e joweediɗi"
+      },
+      "N0000018": {
+        "fr": "18",
+        "text": "sappo e joweetati"
+      },
+      "N0000019": {
+        "fr": "19",
+        "text": "sappo e joweenayi"
+      },
+      "N0000020": {
+        "fr": "20",
+        "text": "nogas"
+      },
+      "N0000021": {
+        "fr": "21",
+        "text": "nogas e go'o"
+      },
+      "N0000022": {
+        "fr": "22",
+        "text": "nogas e ɗiɗi"
+      },
+      "N0000023": {
+        "fr": "23",
+        "text": "nogas e tati"
+      },
+      "N0000024": {
+        "fr": "24",
+        "text": "nogay e nayi"
+      },
+      "N0000025": {
+        "fr": "25",
+        "text": "nogay e joyi"
+      },
+      "N0000026": {
+        "fr": "26",
+        "text": "nogay e jeego"
+      },
+      "N0000027": {
+        "fr": "27",
+        "text": "nogay e jeedidi"
+      },
+      "N0000028": {
+        "fr": "28",
+        "text": "nogay e jeetati"
+      },
+      "N0000029": {
+        "fr": "29",
+        "text": "nogay e jeenayi"
+      },
+      "N0000030": {
+        "fr": "30",
+        "text": "cappande tati"
+      },
+      "N0000031": {
+        "fr": "31",
+        "text": "cappande tati e gooto"
+      },
+      "N0000032": {
+        "fr": "32",
+        "text": "cappande tati e didi"
+      },
+      "N0000033": {
+        "fr": "33",
+        "text": "cappande tati e tati"
+      },
+      "N0000034": {
+        "fr": "34",
+        "text": "cappande tati e nayi"
+      },
+      "N0000035": {
+        "fr": "35",
+        "text": "cappande tati e joyi"
+      },
+      "N0000036": {
+        "fr": "36",
+        "text": "cappande tati e jeego"
+      },
+      "N0000037": {
+        "fr": "37",
+        "text": "cappande tati e jeedidi"
+      },
+      "N0000038": {
+        "fr": "38",
+        "text": "cappande tati e jeetati"
+      },
+      "N0000039": {
+        "fr": "39",
+        "text": "cappande tati e jeenayi"
+      },
+      "N0000040": {
+        "fr": "40",
+        "text": "cappande nayi"
+      },
+      "N0000041": {
+        "fr": "41",
+        "text": "cappande nayi e gooto"
+      },
+      "N0000042": {
+        "fr": "42",
+        "text": "cappande nayi e didi"
+      },
+      "N0000043": {
+        "fr": "43",
+        "text": "cappande nayi e tati"
+      },
+      "N0000044": {
+        "fr": "44",
+        "text": "cappande nayi e nayi"
+      },
+      "N0000045": {
+        "fr": "45",
+        "text": "cappande nayi e joyi"
+      },
+      "N0000046": {
+        "fr": "46",
+        "text": "cappande nayi e jeego"
+      },
+      "N0000047": {
+        "fr": "47",
+        "text": "cappande nayi e jeedidi"
+      },
+      "N0000048": {
+        "fr": "48",
+        "text": "cappane nayi e jeenayi"
+      },
+      "N0000049": {
+        "fr": "49",
+        "text": "cappane nayi e jewenayi"
+      },
+      "N0000050": {
+        "fr": "50",
+        "text": "cappane joyi"
+      },
+      "N0000051": {
+        "fr": "51",
+        "text": "cappane joyi e go'o"
+      },
+      "N0000052": {
+        "fr": "52",
+        "text": "cappane joyi e ɗiɗi"
+      },
+      "N0000053": {
+        "fr": "53",
+        "text": "cappane joyi e tati"
+      },
+      "N0000054": {
+        "fr": "54",
+        "text": "cappane joyi e nayi"
+      },
+      "N0000055": {
+        "fr": "55",
+        "text": "cappane joyi e joyi"
+      },
+      "N0000056": {
+        "fr": "56",
+        "text": "cappane joyi e jeegom"
+      },
+      "N0000057": {
+        "fr": "57",
+        "text": "cappane joyi e jeedeeɗi"
+      },
+      "N0000058": {
+        "fr": "58",
+        "text": "cappane joyi e jeenayi"
+      },
+      "N0000059": {
+        "fr": "59",
+        "text": "cappane joyi e jewenayi"
+      },
+      "N0000060": {
+        "fr": "60",
+        "text": "cappane jeegom"
+      },
+      "N0000061": {
+        "fr": "61",
+        "text": "cappane jeegom e go'o"
+      },
+      "N0000062": {
+        "fr": "62",
+        "text": "cappane jeegom e ɗiɗi"
+      },
+      "N0000063": {
+        "fr": "63",
+        "text": "cappane jeegom e tati"
+      },
+      "N0000064": {
+        "fr": "64",
+        "text": "cappane jeegom e nayi"
+      },
+      "N0000065": {
+        "fr": "65",
+        "text": "cappane jeegom e joyi"
+      },
+      "N0000066": {
+        "fr": "66",
+        "text": "cappane jeegom e jeegom"
+      },
+      "N0000067": {
+        "fr": "67",
+        "text": "cappane jeegom e jeedeeɗi"
+      },
+      "N0000068": {
+        "fr": "68",
+        "text": "cappane jeegom e jeenayi"
+      },
+      "N0000069": {
+        "fr": "69",
+        "text": "cappane jeegom e jewenayi"
+      },
+      "N0000070": {
+        "fr": "70",
+        "text": "cappane jeedeeɗi"
+      },
+      "N0000071": {
+        "fr": "71",
+        "text": "cappane jeedeeɗi e go'o"
+      },
+      "N0000072": {
+        "fr": "72",
+        "text": "cappane jeenay e didi"
+      },
+      "N0000073": {
+        "fr": "73",
+        "text": "cappane jeenay e tati"
+      },
+      "N0000074": {
+        "fr": "74",
+        "text": "cappane jeenay e nayi"
+      },
+      "N0000075": {
+        "fr": "75",
+        "text": "cappane jeenay e joyi"
+      },
+      "N0000076": {
+        "fr": "76",
+        "text": "cappane jeenay e jewenyi"
+      },
+      "N0000077": {
+        "fr": "77",
+        "text": "cappane jeenay e jewennde didi"
+      },
+      "N0000078": {
+        "fr": "78",
+        "text": "cappane jeenay e jewennde tati"
+      },
+      "N0000079": {
+        "fr": "79",
+        "text": "cappane jeenay e jewennde nayi"
+      },
+      "N0000080": {
+        "fr": "80",
+        "text": "cappane jeetati"
+      },
+      "N0000081": {
+        "fr": "81",
+        "text": "cappane jeetati e gooto"
+      },
+      "N0000082": {
+        "fr": "82",
+        "text": "cappane jeetati e didi"
+      },
+      "N0000083": {
+        "fr": "83",
+        "text": "cappane jeetati e tati"
+      },
+      "N0000084": {
+        "fr": "84",
+        "text": "cappane jeetati e nayi"
+      },
+      "N0000085": {
+        "fr": "85",
+        "text": "cappane jeetati e joyi"
+      },
+      "N0000086": {
+        "fr": "86",
+        "text": "cappane jeetati e jewenyi"
+      },
+      "N0000087": {
+        "fr": "87",
+        "text": "cappane jeetati e jewennde didi"
+      },
+      "N0000088": {
+        "fr": "88",
+        "text": "cappane jeetati e jewennde tati"
+      },
+      "N0000089": {
+        "fr": "89",
+        "text": "cappane jeetati e jewennde nayi"
+      },
+      "N0000090": {
+        "fr": "90",
+        "text": "cappane jeenayi"
+      },
+      "N0000091": {
+        "fr": "91",
+        "text": "cappane jeenayi e gooto"
+      },
+      "N0000092": {
+        "fr": "92",
+        "text": "cappane jeenayi e didi"
+      },
+      "N0000093": {
+        "fr": "93",
+        "text": "cappane jeenayi e tati"
+      },
+      "N0000094": {
+        "fr": "94",
+        "text": "cappane jeenayi e nayi"
+      },
+      "N0000095": {
+        "fr": "95",
+        "text": "cappane jeenayi e joyi"
+      },
+      "N0000096": {
+        "fr": "96",
+        "text": "jeego e jeegoyee"
+      },
+      "N0000097": {
+        "fr": "97",
+        "text": "jeego e jeegowayi"
+      },
+      "N0000098": {
+        "fr": "98",
+        "text": "jeego e jeego nayi"
+      },
+      "N0000099": {
+        "fr": "99",
+        "text": "jeego e jeego joyi"
+      },
+      "N0000100": {
+        "fr": "100",
+        "text": "teemedde"
+      },
+      "N0000200": {
+        "fr": "200",
+        "text": "teemedde didi"
+      },
+      "N0000300": {
+        "fr": "300",
+        "text": "teemedde tati"
+      },
+      "N0000400": {
+        "fr": "400",
+        "text": "teemedde nayi"
+      },
+      "N0000500": {
+        "fr": "500",
+        "text": "teemedde joyi"
+      },
+      "N0000600": {
+        "fr": "600",
+        "text": "teemedde jeego"
+      },
+      "N0000700": {
+        "fr": "700",
+        "text": "teemedde jeegoyee"
+      },
+      "N0000800": {
+        "fr": "800",
+        "text": "teemedde jeegowayi"
+      },
+      "N0000900": {
+        "fr": "900",
+        "text": "teemedde jeego e nayi"
+      },
+      "N0001000": {
+        "fr": "1000",
+        "text": "ubi"
+      },
+      "N0002000": {
+        "fr": "2000",
+        "text": "ubi didi"
+      },
+      "N0005000": {
+        "fr": "5000",
+        "text": "ubi joyi"
+      },
+      "N0010000": {
+        "fr": "10000",
+        "text": "ubi teemedde"
+      },
+      "N0100000": {
+        "fr": "100000",
+        "text": "teemedde ubi"
+      },
+      "N1000000": {
+        "fr": "1000000",
+        "text": "miliyon gooto"
+      },
+      "N_VIRGULE": {
+        "fr": "virgule",
+        "text": "toltorgol"
+      },
+      "N_PCENT": {
+        "fr": "pour cent",
+        "text": "terti"
+      },
+      "N_FRANC": {
+        "fr": "franc CFA",
+        "text": "lipi CFA"
+      },
+      "MOIS01": {
+        "fr": "janvier",
+        "text": "Seeto"
+      },
+      "MOIS02": {
+        "fr": "février",
+        "text": "Mbuuj^{(\\text{o})}"
+      },
+      "MOIS03": {
+        "fr": "mars",
+        "text": "Mawalde"
+      },
+      "MOIS04": {
+        "fr": "avril",
+        "text": "Seeto-Arnde"
+      },
+      "MOIS05": {
+        "fr": "mai",
+        "text": "Duujal"
+      },
+      "MOIS06": {
+        "fr": "juin",
+        "text": "Korse"
+      },
+      "MOIS07": {
+        "fr": "juillet",
+        "text": "Morso"
+      },
+      "MOIS08": {
+        "fr": "août",
+        "text": "Juko"
+      },
+      "MOIS09": {
+        "fr": "septembre",
+        "text": "The soko"
+      },
+      "MOIS10": {
+        "fr": "octobre",
+        "text": "Yarkoma"
+      },
+      "MOIS11": {
+        "fr": "novembre",
+        "text": "Jolal"
+      },
+      "MOIS12": {
+        "fr": "décembre",
+        "text": "Bowte"
+      },
+      "JOUR1": {
+        "fr": "lundi",
+        "text": "Altine"
+      },
+      "JOUR2": {
+        "fr": "mardi",
+        "text": "Salata"
+      },
+      "JOUR3": {
+        "fr": "mercredi",
+        "text": "Alarba"
+      },
+      "JOUR4": {
+        "fr": "jeudi",
+        "text": "Alkamisa"
+      },
+      "JOUR5": {
+        "fr": "vendredi",
+        "text": "Aljuma"
+      },
+      "JOUR6": {
+        "fr": "samedi",
+        "text": "Asibar"
+      },
+      "JOUR7": {
+        "fr": "dimanche",
+        "text": "Alahadi"
+      },
+      "TPS1": {
+        "fr": "aujourd'hui",
+        "text": "hannde"
+      },
+      "TPS2": {
+        "fr": "demain",
+        "text": "jango"
+      },
+      "TPS3": {
+        "fr": "hier",
+        "text": "konyi"
+      },
+      "G022": {
+        "fr": "débit",
+        "text": "NJelle"
+      },
+      "G023": {
+        "fr": "crédit (sur le compte)",
+        "text": "Nabbita"
+      },
+      "G025": {
+        "fr": "plafond",
+        "text": "Keeri"
+      },
+      "G026": {
+        "fr": "limite journalière",
+        "text": "Keeri nyalnde"
+      },
+      "G027": {
+        "fr": "franc CFA",
+        "text": "Frank CFA"
+      },
+      "G028": {
+        "fr": "espèces",
+        "text": "Limse"
+      },
+      "G029": {
+        "fr": "chèque",
+        "text": "šeek"
+      },
+      "G030": {
+        "fr": "carte bancaire",
+        "text": "Kartal banki"
+      },
+      "G032": {
+        "fr": "distributeur automatique (GAB)",
+        "text": "mašiin liitirɗo ceede"
+      },
+      "G033": {
+        "fr": "agence",
+        "text": "Ofisi"
+      },
+      "G034": {
+        "fr": "agent",
+        "text": "Agenti"
+      },
+      "G036": {
+        "fr": "caissier",
+        "text": "kašeere"
+      },
+      "G038": {
+        "fr": "numéro de compte",
+        "text": "Limngal kontu"
+      },
+      "G039": {
+        "fr": "numéro de téléphone",
+        "text": "Limngal telefon"
+      },
+      "G040": {
+        "fr": "ouverture de compte",
+        "text": "Tagugol kontu"
+      },
+      "G041": {
+        "fr": "clôture de compte",
+        "text": "Mbaadi kontu"
+      },
+      "G042": {
+        "fr": "pièce d'identité",
+        "text": "Kartal annditol"
+      },
+      "G043": {
+        "fr": "justificatif",
+        "text": "kaɗirgal"
+      },
+      "G044": {
+        "fr": "signature",
+        "text": "senorde"
+      },
+      "G046": {
+        "fr": "frais",
+        "text": "njoddi"
+      },
+      "G047": {
+        "fr": "commission",
+        "text": "njoddi golle"
+      },
+      "G048": {
+        "fr": "frais de tenue de compte",
+        "text": "njoddi reeniugo konte"
+      },
+      "G049": {
+        "fr": "frais de transfert",
+        "text": "njoddi nurnugo"
+      },
+      "G050": {
+        "fr": "frais de retrait",
+        "text": "njoddi yaltinki"
+      },
+      "G051": {
+        "fr": "taxe",
+        "text": "tooraa"
+      },
+      "G052": {
+        "fr": "gratuit",
+        "text": "kii ma yodi"
+      },
+      "G053": {
+        "fr": "tarif",
+        "text": "joogol njoddi"
+      },
+      "G054": {
+        "fr": "barème",
+        "text": "doggol njoddi"
+      },
+      "G055": {
+        "fr": "montant total",
+        "text": "fii foti"
+      },
+      "G056": {
+        "fr": "code secret (PIN)",
+        "text": "kodde sirri"
+      },
+      "G057": {
+        "fr": "code de validation",
+        "text": "kodde hoolugol"
+      },
+      "G058": {
+        "fr": "mot de passe",
+        "text": "konngol sirri"
+      },
+      "G059": {
+        "fr": "arnaque",
+        "text": "ndimbaari"
+      },
+      "G060": {
+        "fr": "fraude",
+        "text": "fiilde"
+      },
+      "G061": {
+        "fr": "faux message",
+        "text": "bareere fenaande"
+      },
+      "G062": {
+        "fr": "faux agent",
+        "text": "biroowo fenaande"
+      },
+      "G063": {
+        "fr": "ne jamais communiquer",
+        "text": "tago a holla mo"
+      },
+      "G064": {
+        "fr": "compte bloqué",
+        "text": "konte daaɗe"
+      },
+      "G065": {
+        "fr": "carte bloquée",
+        "text": "kaari daaɗe"
+      },
+      "G066": {
+        "fr": "carte volée",
+        "text": "kaari jeyaaɗo"
+      },
+      "G067": {
+        "fr": "opposition",
+        "text": "daande"
+      },
+      "G068": {
+        "fr": "perte (carte ou téléphone)",
+        "text": "ɓural"
+      },
+      "G069": {
+        "fr": "sécurité",
+        "text": "kisndam"
+      },
+      "G070": {
+        "fr": "vérification",
+        "text": "Ɓennugol"
+      },
+      "G071": {
+        "fr": "identifiant",
+        "text": "Innde naatgol"
+      },
+      "G072": {
+        "fr": "carte SIM",
+        "text": "Kaat SIM"
+      },
+      "G073": {
+        "fr": "connexion suspecte",
+        "text": "Naatgol ngol walaa sago"
+      },
+      "G074": {
+        "fr": "appeler immédiatement",
+        "text": "Cenngo jooni"
+      },
+      "G075": {
+        "fr": "attention",
+        "text": "Reero"
+      },
+      "G076": {
+        "fr": "prêt",
+        "text": "Dokkal ceede"
+      },
+      "G077": {
+        "fr": "microcrédit",
+        "text": "Dokkal ceede famardum"
+      },
+      "G078": {
+        "fr": "emprunt",
+        "text": "Dokkal ceede"
+      },
+      "G079": {
+        "fr": "échéance",
+        "text": "Nyalaande yoɓgol"
+      },
+      "G080": {
+        "fr": "mensualité",
+        "text": "Yoɓgol lewru kala"
+      },
+      "G081": {
+        "fr": "remboursement",
+        "text": "Ruttugol ceede"
+      },
+      "G082": {
+        "fr": "taux d'intérêt",
+        "text": "Tolno yoɓgol"
+      },
+      "G083": {
+        "fr": "intérêt",
+        "text": "Beydaari"
+      },
+      "G084": {
+        "fr": "pénalité",
+        "text": "Ceede baasal"
+      },
+      "G085": {
+        "fr": "retard de paiement",
+        "text": "Bakkugol nyalaande yoɓgol"
+      },
+      "G086": {
+        "fr": "garantie",
+        "text": "Ndago"
+      },
+      "G087": {
+        "fr": "caution",
+        "text": "Dimndiraaɗo"
+      },
+      "G088": {
+        "fr": "apport",
+        "text": "Ceede fuɗɗorɗe"
+      },
+      "G089": {
+        "fr": "durée du prêt",
+        "text": "Waktu dokkal"
+      },
+      "G090": {
+        "fr": "capital",
+        "text": "Ceede fuɗɗorɗe"
+      },
+      "G091": {
+        "fr": "dette",
+        "text": "Nyamaande"
+      },
+      "G092": {
+        "fr": "reste à payer",
+        "text": "Ceede keddiiɗe yoɓgol"
+      },
+      "G093": {
+        "fr": "épargne",
+        "text": "Ceede cuuɗiiɗe"
+      },
+      "G094": {
+        "fr": "épargne bloquée",
+        "text": "keertungal ngakkungal"
+      },
+      "G095": {
+        "fr": "dépôt à terme",
+        "text": "keertungal ngakkungal gasol sahaa"
+      },
+      "G096": {
+        "fr": "assurance",
+        "text": "baasal"
+      },
+      "G097": {
+        "fr": "prime d'assurance",
+        "text": "njoddi baasal"
+      },
+      "G098": {
+        "fr": "sinistre",
+        "text": "jikkungal bonngal"
+      },
+      "G099": {
+        "fr": "couverture",
+        "text": "ko baasal ndarnata"
+      },
+      "G100": {
+        "fr": "tontine",
+        "text": "tonti"
+      },
+      "G101": {
+        "fr": "accordé",
+        "text": "hokkii"
+      },
+      "G102": {
+        "fr": "refusé",
+        "text": "nannitaaki"
+      },
+      "G103": {
+        "fr": "portefeuille mobile",
+        "text": "paakeere cinndel"
+      },
+      "G104": {
+        "fr": "mobile money",
+        "text": "mobiil mone"
+      },
+      "G105": {
+        "fr": "agent mobile money",
+        "text": "ajaa mobiil mone"
+      },
+      "G106": {
+        "fr": "dépôt chez l'agent",
+        "text": "wattugol to ajaa"
+      },
+      "G107": {
+        "fr": "retrait chez l'agent",
+        "text": "yottugol to ajaa"
+      },
+      "G108": {
+        "fr": "crédit de communication",
+        "text": "kirediti koowol"
+      },
+      "G109": {
+        "fr": "forfait internet",
+        "text": "forfeere intarneet"
+      },
+      "G110": {
+        "fr": "USSD (code étoile dièse)",
+        "text": "USSD"
+      },
+      "G111": {
+        "fr": "SMS",
+        "text": "mesaje"
+      },
+      "G112": {
+        "fr": "application",
+        "text": "aplikaasiyoŋ"
+      },
+      "G113": {
+        "fr": "réseau",
+        "text": "rezo"
+      },
+      "G114": {
+        "fr": "hors connexion",
+        "text": "alaa intarneet"
+      },
+      "G115": {
+        "fr": "recharge",
+        "text": "recaarji"
+      },
+      "G116": {
+        "fr": "réclamation",
+        "text": "ñiŋol"
+      },
+      "G117": {
+        "fr": "médiation",
+        "text": "faamondiral"
+      },
+      "G118": {
+        "fr": "service client",
+        "text": "ballal yimɓe"
+      },
+      "G119": {
+        "fr": "rendez-vous",
+        "text": "alkawal"
+      },
+      "G120": {
+        "fr": "horaires",
+        "text": "waktuuji"
+      },
+      "G121": {
+        "fr": "ouvert",
+        "text": "uddhiti"
+      },
+      "G122": {
+        "fr": "fermé",
+        "text": "maŋgi"
+      },
+      "G123": {
+        "fr": "jour férié",
+        "text": "nyalnde hite"
+      },
+      "G124": {
+        "fr": "urgent",
+        "text": "hakiika"
+      },
+      "G125": {
+        "fr": "aide",
+        "text": "ballal"
+      },
+      "G126": {
+        "fr": "erreur",
+        "text": "foda"
+      },
+      "G127": {
+        "fr": "échec",
+        "text": "moƴƴaani"
+      },
+      "G128": {
+        "fr": "réussite",
+        "text": "moƴƴi"
+      },
+      "G129": {
+        "fr": "annuler",
+        "text": "dartina"
+      },
+      "G130": {
+        "fr": "confirmer",
+        "text": "goonɗina"
+      },
+      "G131": {
+        "fr": "valider",
+        "text": "jaɓa"
+      },
+      "G132": {
+        "fr": "retour",
+        "text": "rutta"
+      },
+      "G133": {
+        "fr": "continuer",
+        "text": "yimra"
+      },
+      "G134": {
+        "fr": "suivant",
+        "text": "jokki"
+      },
+      "G135": {
+        "fr": "oui",
+        "text": "eyee"
+      },
+      "G136": {
+        "fr": "non",
+        "text": "alaa"
+      },
+      "G137": {
+        "fr": "merci",
+        "text": "a jaaraama"
+      },
+      "G138": {
+        "fr": "bonjour",
+        "text": "jam a waali"
+      },
+      "G139": {
+        "fr": "au revoir",
+        "text": "sai jumma"
+      },
+      "G140": {
+        "fr": "s'il vous plaît",
+        "text": "tina"
+      },
+      "G141": {
+        "fr": "réessayer",
+        "text": "enndita"
+      },
+      "G142": {
+        "fr": "nombre",
+        "text": "Limgal"
+      },
+      "G143": {
+        "fr": "montant",
+        "text": "Keñal"
+      },
+      "G144": {
+        "fr": "pourcentage",
+        "text": "Teemedere"
+      },
+      "G145": {
+        "fr": "date",
+        "text": "Ñalngu"
+      },
+      "G146": {
+        "fr": "heure",
+        "text": "Waktu"
+      },
+      "G147": {
+        "fr": "mois",
+        "text": "Lewru"
+      },
+      "G148": {
+        "fr": "année",
+        "text": "Hitande"
+      },
+      "G149": {
+        "fr": "aujourd'hui",
+        "text": "Hono to ñalawma"
+      },
+      "G150": {
+        "fr": "demain",
+        "text": "Subaka"
+      },
+      "G151": {
+        "fr": "hier",
+        "text": "Keسبo"
+      },
+      "G152": {
+        "fr": "avant le",
+        "text": "Adugo ñalngu"
+      },
+      "G153": {
+        "fr": "après le",
+        "text": "Baawo ñalngu"
+      },
+      "G154": {
+        "fr": "chaque mois",
+        "text": "Kileewru kala"
+      },
+      "G155": {
+        "fr": "par jour",
+        "text": "Ñalnde kala"
+      },
+      "M001": {
+        "fr": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Yaltugol {MONTANT_1} waɗaa ñalnde {DATE_1}. Cuuɗi: {MONTANT_2}. Sodu kesu: {MONTANT_3}."
+      },
+      "M002": {
+        "fr": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Dokkal {MONTANT_1} jaɓaa ñalnde {DATE_1}. Sodu kesu: {MONTANT_2}."
+      },
+      "M003": {
+        "fr": "Votre solde est de {MONTANT_1}.",
+        "text": "Sodu ma ko {MONTANT_1}."
+      },
+      "M004": {
+        "fr": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "A heɓi {MONTANT_1} diga {NOM_1} ñalnde {DATE_1}. Sode keso: {MONTANT_2}."
+      },
+      "M005": {
+        "fr": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "A nelii {MONTANT_1} to {NOM_1}. Cuuɗi: {MONTANT_2}. Sodu kesu: {MONTANT_3}."
+      },
+      "M006": {
+        "fr": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler.",
+        "text": "Tabbitin neldinki {MONTANT_1} to {NOM_1}. Njoɓdi: {MONTANT_2}. Dobe 1 ngam tabbitinki, 2 ngam lettinki."
+      },
+      "M007": {
+        "fr": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}.",
+        "text": "Neldugal salinaa: sodu baawataa. Sodu ma ko {MONTANT_1}."
+      },
+      "M008": {
+        "fr": "Transfert annulé. Aucun montant n'a été débité.",
+        "text": "Neldugal dartinaa. Kala keñal yalti"
+      },
+      "M009": {
+        "fr": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur.",
+        "text": "Pinndi ma waylaama. To si wonaa aan, noddu joom laawol ma jooni."
+      },
+      "M010": {
+        "fr": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera.",
+        "text": "A tabitinkaa holli pinndi ma. Wonaa neɗɗo mo banke walla joom laawol naamnday ma."
+      },
+      "M011": {
+        "fr": "Votre code de validation est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Pinndi ma holliraama e ekran. Hokkuɗaa ɗum neɗɗo."
+      },
+      "M012": {
+        "fr": "Attention arnaque : personne ne vous demandera votre code par message ou par appel.",
+        "text": "Hakkitor jam: hay gooto noddataako ma e siri ma e nder saktorde walla noddaango."
+      },
+      "M013": {
+        "fr": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité.",
+        "text": "Yiytugol naatgol bonngol tawaama e kontu ma. Kontu ma daaɗinaama ngam kisal."
+      },
+      "M014": {
+        "fr": "Votre carte a été bloquée à votre demande.",
+        "text": "Kartal maaɗa daɗngal ko e tinndinol maaɗa."
+      },
+      "M015": {
+        "fr": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Yoɓgol {MONTANT_1} to {LIEU_1} ñalnde {DATE_1}. Kaalis keddungal : {MONTANT_2}."
+      },
+      "M016": {
+        "fr": "Facture {REF_1} payée : {MONTANT_1}. Merci.",
+        "text": "Faktura {REF_1} yoɓaa : {MONTANT_1}. A jarii."
+      },
+      "M017": {
+        "fr": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}.",
+        "text": "Njobdi krediti {MONTANT_1} waɗaa. Kaalis keddungal : {MONTANT_2}."
+      },
+      "M018": {
+        "fr": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}.",
+        "text": "Dokkal {MONTANT_1} naati e konte maaɗa ñalnde {DATE_1}."
+      },
+      "M019": {
+        "fr": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}.",
+        "text": "Dokkal {MONTANT_1} neldaama to {NOM_1} ñalnde {DATE_1}. Njeñtudi : {MONTANT_2}."
+      },
+      "M020": {
+        "fr": "Votre relevé du mois est disponible. Solde : {MONTANT_1}.",
+        "text": "Limngal lewru maaɗa woodi. Kaalis : {MONTANT_1}."
+      },
+      "M021": {
+        "fr": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}.",
+        "text": "Njeñtudi reennugo konte {MONTANT_1} yaɓaa ñalnde {DATE_1}."
+      },
+      "M022": {
+        "fr": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}.",
+        "text": "Njamu maaɗa mo {MONTANT_1} jaɓaa. Tolle : {TAUX_1}. Ñalngu aranu ñalnde {DATE_1}."
+      },
+      "M023": {
+        "fr": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée.",
+        "text": "Sahaa {MONTANT_1} yo yoɓetee ko adii {DATE_1}. To nyalaade nden yawti, njoɓdi {MONTANT_2} naftahetee."
+      },
+      "M024": {
+        "fr": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser.",
+        "text": "Rofgol {MONTANT_1} naati. A woodi {MONTANT_2} ngam roffugo."
+      },
+      "M025": {
+        "fr": "Votre demande de prêt a été refusée.",
+        "text": "Toragol njamu maaɗa salinaama."
+      },
+      "M026": {
+        "fr": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}.",
+        "text": "Faayiɗe {MONTANT_1} naatnaama e konte cagaare e tolle {TAUX_1}."
+      },
+      "M027": {
+        "fr": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser.",
+        "text": "Konte maaɗa ina jogii {MONTANT_1} koɗngal. Tiiɗno moƴƴin."
+      },
+      "M028": {
+        "fr": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}.",
+        "text": "Jiftinol : yoɓgol kisndam maaɗa mo {MONTANT_1} ko adii {DATE_1}."
+      },
+      "M029": {
+        "fr": "Votre assurance est active jusqu'au {DATE_1}.",
+        "text": "Kisndam maaɗa ina golli haa {DATE_1}."
+      },
+      "M030": {
+        "fr": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Humpitol {MONTANT_1} to agent {NOM_1}. Njeñtudi : {MONTANT_2}. Kaalis keddungal : {MONTANT_3}."
+      },
+      "M031": {
+        "fr": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide",
+        "text": "Jam naatɗaa. 1. Kaalis 2. Neldin kaalis 3. Humpitol 4. Yoɓ faktura 5. Ballal"
+      },
+      "M032": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Naatnu limoore heɓoowo."
+      },
+      "M033": {
+        "fr": "Entrez le montant à envoyer.",
+        "text": "Naatnu kaalis mo neldta."
+      },
+      "M034": {
+        "fr": "Entrez votre code secret.",
+        "text": "Naatnu kod sirri maaɗa."
+      },
+      "M035": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Kod sirri ina woowi. Ƴeewto kadi."
+      },
+      "M036": {
+        "fr": "Opération réussie.",
+        "text": "Gollal ɓurti."
+      },
+      "M037": {
+        "fr": "Opération échouée. Veuillez réessayer plus tard.",
+        "text": "Gollal waawaa. Tiiɗno ƴeewto kadi caggal."
+      },
+      "M038": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Gollirde ndee waawaa jooni."
+      },
+      "M039": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Aara to kuudugol golle men."
+      },
+      "M040": {
+        "fr": "Votre numéro {TEL_1} est enregistré.",
+        "text": "Nomba maa {TEL_1} winndaama."
+      },
+      "M041": {
+        "fr": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler",
+        "text": "Neldol to {TEL_1} : {MONTANT_1}. Njoudi : {MONTANT_2}. 1. Tabitin 2. Dartin"
+      },
+      "M042": {
+        "fr": "Insérez votre carte.",
+        "text": "Naatnu kaadi maa."
+      },
+      "M043": {
+        "fr": "Choisissez votre langue.",
+        "text": "Suɓo ɗemngal maa."
+      },
+      "M044": {
+        "fr": "Entrez votre code secret. Cachez le clavier avec votre main.",
+        "text": "Naatnu siri maa. Suuɗ tastirde nden e junngo maa."
+      },
+      "M045": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Suɓo kaalis mo ngoni yaltinde."
+      },
+      "M046": {
+        "fr": "Retirez votre argent.",
+        "text": "Yaltin kaalis maa."
+      },
+      "M047": {
+        "fr": "Reprenez votre carte.",
+        "text": "Jaɓ kaadi maa."
+      },
+      "M048": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Aɗa yiɗi seedee ?"
+      },
+      "M049": {
+        "fr": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer.",
+        "text": "Yaltingol {MONTANT_1}. Njoudi : {MONTANT_2}. Diiw e Tabitin ngam tabitinde."
+      },
+      "M050": {
+        "fr": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer.",
+        "text": "Kaalis maa ko {MONTANT_1}. Diiw e Rutto ngam jokkude."
+      },
+      "M051": {
+        "fr": "Opération impossible : le distributeur n'a plus de billets.",
+        "text": "Golle ɗee mbaawaaka : mashin o alaa kodaaji kaalis."
+      },
+      "M052": {
+        "fr": "Votre carte est retenue. Contactez votre banque.",
+        "text": "Kaadi maa jogitaama. Noddu banke maa."
+      },
+      "M053": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Jam tiri, hol no mbaawmi wallude ma ?"
+      },
+      "M054": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Wuro hollu kaatirdigal maa."
+      },
+      "M055": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Aɗa yiɗi udditgol konte ?"
+      },
+      "M056": {
+        "fr": "Les frais d'ouverture de compte sont de {MONTANT_1}.",
+        "text": "Njoudi udditgol konte ko {MONTANT_1}."
+      },
+      "M057": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Sinno ɗoo, addu ba."
+      },
+      "M058": {
+        "fr": "Votre réclamation est enregistrée. Référence : {REF_1}.",
+        "text": "Ñaintol maa winndaama. Natal : {REF_1}."
+      },
+      "M059": {
+        "fr": "L'agence est ouverte de {HEURE_1} à {HEURE_2}.",
+        "text": "Lorde nden udditaake gila {HEURE_1} haa {HEURE_2}."
+      },
+      "M060": {
+        "fr": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}.",
+        "text": "Pottital maa tabitinaama ñalnde {DATE_1} e {HEURE_1}."
+      },
+      "M061": {
+        "fr": "Téléchargez notre application pour consulter votre compte à tout moment.",
+        "text": "Aawnu app men ngam yi'ugo konte maa tuma kala."
+      },
+      "M062": {
+        "fr": "Nos agences sont fermées les jours fériés.",
+        "text": "Lorde men udditaake ñalnguuji cuuɗi."
+      },
+      "M063": {
+        "fr": "Pour toute question, appelez le service client au {TEL_1}.",
+        "text": "To haala fuu, noddu sarwiis kasoowo to {TEL_1}."
+      },
+      "M064": {
+        "fr": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}.",
+        "text": "Promotion: udditu konte nde'e a jaɓɓoto limngal {TAUX_1}."
+      },
+      "TPS4": {
+        "fr": "ce matin",
+        "text": "hannde subaka"
+      },
+      "TPS5": {
+        "fr": "ce soir",
+        "text": "hannde kikiiɓe"
+      },
+      "TPS6": {
+        "fr": "heures",
+        "text": "waktuuji"
+      },
+      "G001": {
+        "fr": "compte",
+        "text": "konto"
+      },
+      "G002": {
+        "fr": "compte courant",
+        "text": "konto huutorteenɗo"
+      },
+      "G003": {
+        "fr": "compte d'épargne",
+        "text": "konto cazinirteeɗo"
+      },
+      "G004": {
+        "fr": "solde",
+        "text": "limngal ceede"
+      },
+      "G005": {
+        "fr": "solde disponible",
+        "text": "cede huutorteeɗe"
+      },
+      "G006": {
+        "fr": "dépôt",
+        "text": "nattingol ceede"
+      },
+      "G007": {
+        "fr": "retrait",
+        "text": "yanngugol ceede"
+      },
+      "G008": {
+        "fr": "virement",
+        "text": "wattugol ceede hakkunde konte"
+      },
+      "G009": {
+        "fr": "transfert",
+        "text": "neldugol ceede"
+      },
+      "G010": {
+        "fr": "envoi d'argent",
+        "text": "neldugol ceede"
+      },
+      "G011": {
+        "fr": "réception d'argent",
+        "text": "jaɓgol ceede"
+      },
+      "G012": {
+        "fr": "paiement",
+        "text": "yoɓgol"
+      },
+      "G013": {
+        "fr": "facture",
+        "text": "kataaku yoɓgol"
+      },
+      "G014": {
+        "fr": "reçu",
+        "text": "seedtol yoɓgol"
+      },
+      "G015": {
+        "fr": "relevé",
+        "text": "limngal kuutorɗe konto"
+      },
+      "G016": {
+        "fr": "historique",
+        "text": "kuutorɗe gonɗe"
+      },
+      "G017": {
+        "fr": "opération",
+        "text": "kuugal"
+      },
+      "G018": {
+        "fr": "transaction",
+        "text": "kuugal ceede"
+      },
+      "G019": {
+        "fr": "référence de transaction",
+        "text": "limngal kuugal"
+      },
+      "G020": {
+        "fr": "bénéficiaire",
+        "text": "jaɓɓotooɗo ceede"
+      },
+      "G021": {
+        "fr": "expéditeur",
+        "text": "neldinoowo ceede"
+      },
+      "G024": {
+        "fr": "découvert",
+        "text": "lekki asamaan"
+      },
+      "G031": {
+        "fr": "carte prépayée",
+        "text": "kaati dokkaaɗo ko adii"
+      },
+      "G035": {
+        "fr": "guichet",
+        "text": "windirdu"
+      },
+      "G037": {
+        "fr": "conseiller",
+        "text": "balloowo miijo"
+      },
+      "G045": {
+        "fr": "procuration",
+        "text": "dukkugol"
+      }
+    },
+    "bbj": {
+      "P001": {
+        "fr": "Ne communiquez jamais votre code secret à personne.",
+        "text": "Ká tsɛ́’ nɛ́ awoŋ pɔ́ɔ nkwun tà’a nka’a ncwɔ́ pɔ́ɔ yɛ́’ɛ."
+      },
+      "P002": {
+        "fr": "Personne de la banque ne vous demandera votre code secret.",
+        "text": "Mbaŋ a ŋkà’a tɛ́ ncwɔ́ awoŋ pɔ́ɔ nkwun tà’a nka’a."
+      },
+      "P003": {
+        "fr": "Personne de l'opérateur ne vous demandera votre code secret.",
+        "text": "Mbaŋ a ŋkà’a tɛ́ ncwɔ́ awoŋ pɔ́ɔ nkwun tà’a nka’a."
+      },
+      "P004": {
+        "fr": "Attention : c'est peut-être une arnaque.",
+        "text": "Nfɔ́gɔ́: a lɔ́gɔ́ nciŋ pɔ́ɔ lʉ́m."
+      },
+      "P005": {
+        "fr": "Si quelqu'un vous demande votre code par téléphone, raccrochez.",
+        "text": "Nɛ́ gie nciŋ mɛ́ pɔ́ɔ nkwun tà’a nka’a tɛ́ tɔ́’ɔ lɔ́gɔ́, nkɔ́gɔ́ nshwi."
+      },
+      "P006": {
+        "fr": "Votre code est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Awoŋ pɔ́ɔ nkwun tà’a nka’a a ŋwa’an nzye tɛ́. Ká tsɛ́’ nɛ́ ncwɔ́ pɔ́ɔ yɛ́’ɛ."
+      },
+      "P007": {
+        "fr": "Vérifiez le montant avant de confirmer.",
+        "text": "Nwu’wɛ́ kawo mɛ́ pɔ́ɔ pɛ́’ɛ ŋkap mɔ́ pɔ́ɔ nkap mɔ́."
+      },
+      "P008": {
+        "fr": "Vérifiez le nom du bénéficiaire avant de confirmer.",
+        "text": "Nwu’wɛ́ ńdin a nkap pɔ́ɔ mɔ́ pɔ́ɔ pɛ́’ɛ."
+      },
+      "P009": {
+        "fr": "Vérifiez les frais avant de confirmer.",
+        "text": "Nwu’wɛ́ ngɔ́ mɔ́ pɔ́ɔ pɛ́’ɛ."
+      },
+      "P010": {
+        "fr": "Voulez-vous vraiment envoyer cet argent ?",
+        "text": "Wɔ́ ŋkà’a ŋkap nsiɛ nɛ́?"
+      },
+      "P011": {
+        "fr": "Appuyez sur un pour confirmer.",
+        "text": "Lá’ pɛ́’ɛ mɔ́ tà’a nkwun pɛ́’ɛ."
+      },
+      "P012": {
+        "fr": "Appuyez sur deux pour annuler.",
+        "text": "Lá’ pɛ́’ɛ mɔ́ pɛ́’ɛ mɛ́ pɔ́ɔ nka’a."
+      },
+      "P013": {
+        "fr": "L'opération est annulée. Votre argent n'a pas bougé.",
+        "text": "Nkap pɔ́ɔ nka’a. Ŋkap pɔ́ɔ lɔ́gɔ́ ŋwa’a fɔ́."
+      },
+      "P014": {
+        "fr": "L'opération est réussie.",
+        "text": "Nkap pɔ́ɔ pɛ́’ɛ ŋga’a."
+      },
+      "P015": {
+        "fr": "L'opération a échoué. Votre argent n'a pas été débité.",
+        "text": "Nkap pɔ́ɔ ŋkwa’a. Ŋkap pɔ́ɔ lɔ́gɔ́ shwí fɔ́."
+      },
+      "P016": {
+        "fr": "Votre solde est insuffisant.",
+        "text": "Ŋkap pɔ́ɔ lɔ́gɔ́ sɔ́ ńdi."
+      },
+      "P017": {
+        "fr": "Votre compte est bloqué par sécurité.",
+        "text": "Nkap pɔ́ɔ mɛ́ nku’wɛ́ pɔ́ɔ pɛ́’ɛ."
+      },
+      "P018": {
+        "fr": "Votre carte est bloquée.",
+        "text": "Kaata pɔ́ɔ mɛ́ nku’wɛ́."
+      },
+      "P019": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre banque.",
+        "text": "Nɛ́ gie a lɔ́gɔ́ wɛ́ fɔ́, kà’ mbaŋ pɔ́ɔ tɛ́ ntsíŋ."
+      },
+      "P020": {
+        "fr": "Si ce n'est pas vous, appelez tout de suite votre opérateur.",
+        "text": "Nɛ́ gie a lɔ́gɔ́ wɛ́ fɔ́, kà’ mbaŋ pɔ́ɔ tɛ́ ntsíŋ."
+      },
+      "P021": {
+        "fr": "Il y a des frais pour cette opération.",
+        "text": "Ngɔ́ mɔ́ a ŋwa’an nkap nsiɛ."
+      },
+      "P022": {
+        "fr": "Cette opération est gratuite.",
+        "text": "Nkap pɔ́ɔ mɛ́ a lɔ́gɔ́ ngɔ́ fɔ́."
+      },
+      "P023": {
+        "fr": "Vous devez payer avant la date indiquée.",
+        "text": "Wɔ́ ŋkà’a ngɔ́ nsiɛ tɛ́ nshi mɛ́ ńka’a fɔ́."
+      },
+      "P024": {
+        "fr": "Si vous payez en retard, vous payez une pénalité.",
+        "text": "Nɛ́ gie wɔ́ ŋgɔ́ mɛ́ nshi mɛ́ ńka’a fɔ́, wɔ́ ŋgɔ́ ngwɔ́ fɔ́."
+      },
+      "P025": {
+        "fr": "Ce prêt doit être remboursé avec des intérêts.",
+        "text": "Nàwú nkwɛ́ mɔ́ɔ́ ntswɛ́n yà pì ŋ́wɛ́ nshwì."
+      },
+      "P026": {
+        "fr": "Lisez bien le contrat avant de signer.",
+        "text": "Gàà nkpɛ́' ŋ́wɛ́' mbɔ́ nshwì tà' kà nte' kù."
+      },
+      "P027": {
+        "fr": "Vous pouvez poser une question avant de signer.",
+        "text": "Wú pɔ́' nzhwì m̀bà' ŋ́wɛ́' tà' kà nte' kù."
+      },
+      "P028": {
+        "fr": "Vous pouvez faire une réclamation si vous avez un problème.",
+        "text": "Wú pɔ́' nnyɛ́ nkwɛ́ ntɔ́' pì wú zɔ́ gɔ́' ntà."
+      },
+      "P029": {
+        "fr": "Ne signez rien que vous ne comprenez pas.",
+        "text": "Tà' nte' kù shwì mɔ́ɔ́ wú ntɛ́' kù ngyà."
+      },
+      "P030": {
+        "fr": "Cachez le clavier avec votre main quand vous tapez votre code.",
+        "text": "Káp kpɛ́' mbà' m̀bɔ́ɔ́ m̀pì kù kɔ́ɔ́ ŋ́wɛ́."
+      },
+      "P031": {
+        "fr": "Vous avez reçu",
+        "text": "Wɔ́ ŋgɔ́"
+      },
+      "P032": {
+        "fr": "Vous avez envoyé",
+        "text": "Wɔ́ tɔ́m"
+      },
+      "P033": {
+        "fr": "Vous allez envoyer",
+        "text": "Wɔ́ ká tɔ́m"
+      },
+      "P034": {
+        "fr": "Vous allez retirer",
+        "text": "Wɔ́ ká lɔ́"
+      },
+      "P035": {
+        "fr": "Vous avez déposé",
+        "text": "Wɔ́ zɛ́"
+      },
+      "P036": {
+        "fr": "Votre solde est de",
+        "text": "Nsɔ́ɔ wù nɔ́"
+      },
+      "P037": {
+        "fr": "Votre nouveau solde est de",
+        "text": "Nsɔ́ɔ wù pɔ́wɔ́ nɔ́"
+      },
+      "P038": {
+        "fr": "Les frais sont de",
+        "text": "Ndzɛ́ nɔ́"
+      },
+      "P039": {
+        "fr": "Le montant total est de",
+        "text": "Ndzɛ́ mɔ́ɔ́ nɔ́"
+      },
+      "P040": {
+        "fr": "à",
+        "text": "né"
+      },
+      "P041": {
+        "fr": "de la part de",
+        "text": "né gá"
+      },
+      "P042": {
+        "fr": "le",
+        "text": "tsè"
+      },
+      "P043": {
+        "fr": "chez l'agent",
+        "text": "nkwó njɛ́g"
+      },
+      "P044": {
+        "fr": "à l'agence",
+        "text": "nkwó nkába"
+      },
+      "P045": {
+        "fr": "Le taux est de",
+        "text": "Ntɔ́' kɔ́ɔ́ lɔ́"
+      },
+      "P046": {
+        "fr": "pour cent",
+        "text": "m̀fà' kà' nkap"
+      },
+      "P047": {
+        "fr": "La première échéance est le",
+        "text": "Ntwɛ́ nshwì tà' nzhwì gɔ́' lɔ́"
+      },
+      "P048": {
+        "fr": "Il vous reste à rembourser",
+        "text": "Wú mɔ́ɔ́ pì nkwɛ́ mɔ́ɔ́ ntswɛ́n"
+      },
+      "P049": {
+        "fr": "La pénalité est de",
+        "text": "Mə̀fə̀ a wɔ́"
+      },
+      "P050": {
+        "fr": "Le paiement est confirmé pour",
+        "text": "Nkwɛn a mɛ́ nɔ́"
+      },
+      "P051": {
+        "fr": "Bienvenue.",
+        "text": "Wɔ́'ɔ nɔ́."
+      },
+      "P052": {
+        "fr": "Choisissez votre langue.",
+        "text": "Ntsə̀'ɔ si yɔ́."
+      },
+      "P053": {
+        "fr": "Pour le solde, tapez un.",
+        "text": "Mə́ yɔ́ ngàŋ, tə́ptə́ mɔ̀te."
+      },
+      "P054": {
+        "fr": "Pour envoyer de l'argent, tapez deux.",
+        "text": "Mə̀ yɔ́ ntɔ́ɔ si, tə́ptə́ mɔ̀pa."
+      },
+      "P055": {
+        "fr": "Pour un retrait, tapez trois.",
+        "text": "Mə̀ yɔ́ ntɛ́m, tə́ptə́ mɔ̀tat."
+      },
+      "P056": {
+        "fr": "Pour payer une facture, tapez quatre.",
+        "text": "Mə̀ yɔ́ ntə́m fɔ́t, tə́ptə́ mɔ̀nywa."
+      },
+      "P057": {
+        "fr": "Pour de l'aide, tapez cinq.",
+        "text": "Mə̀ yɔ́ mbu'tɛ̀, tə́ptə́ mɔ̀tən."
+      },
+      "P058": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Jə́ptə́ nkɛ́ ŋkaŋ."
+      },
+      "P059": {
+        "fr": "Entrez le montant.",
+        "text": "Jə́ptə́ si."
+      },
+      "P060": {
+        "fr": "Entrez votre code secret.",
+        "text": "Jə́ptə́ kod gɔ́."
+      },
+      "P061": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Kod gɔ́ a sɔ́. Jə́ptə́ ntə́."
+      },
+      "P062": {
+        "fr": "Insérez votre carte.",
+        "text": "Kə̀tə́ kart gɔ́."
+      },
+      "P063": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Ntsə̀'ɔ si yɔ́ ngàŋ ngɛ́ ntɛ́m."
+      },
+      "P064": {
+        "fr": "Retirez votre argent.",
+        "text": "Gwa'nɔ si yɔ́."
+      },
+      "P065": {
+        "fr": "Reprenez votre carte.",
+        "text": "Gwa'nɔ kart gɔ́."
+      },
+      "P066": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Wɔ́ kaŋsi gu?"
+      },
+      "P067": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Mə̀ kɛ̀'sɛ nɔ́."
+      },
+      "P068": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Sevi a kɛ́ mɛ́."
+      },
+      "P069": {
+        "fr": "Veuillez réessayer plus tard.",
+        "text": "Ntsə̀'ɔ ntə́ ndɛ̀."
+      },
+      "P070": {
+        "fr": "Pour parler à un conseiller, tapez zéro.",
+        "text": "Mə̀ yɔ́ ŋgɔ́m, tə́ptə́ mɔ̀fɔ́."
+      },
+      "P071": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Mbi'si, wɔ́ kɛ́ pɔ́ ntye?"
+      },
+      "P072": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Tshu'nɔ nkap kàp gɔ́."
+      },
+      "P091": {
+        "fr": "Oui.",
+        "text": "Wɔ́"
+      },
+      "P092": {
+        "fr": "Non.",
+        "text": "À-tó"
+      },
+      "P093": {
+        "fr": "Merci.",
+        "text": "Mèghà"
+      },
+      "P094": {
+        "fr": "Au revoir.",
+        "text": "Kà' nzhwì"
+      },
+      "P097": {
+        "fr": "Je ne comprends pas. Pouvez-vous répéter ?",
+        "text": "M aa kɔ́ ńtsɛ̀ɛ. Ɔ́ nìŋeŋi wá?"
+      },
+      "P098": {
+        "fr": "Ce n'est pas possible pour le moment.",
+        "text": "É sí kàk tɛ́ ńtɛ́ kə̀ n ŋwà."
+      },
+      "P099": {
+        "fr": "Revenez demain, s'il vous plaît.",
+        "text": "Kɛ́ kə̀ ŋgàa ntswɛ̂, páa."
+      },
+      "P100": {
+        "fr": "Bonne journée.",
+        "text": "Nàŋ sɔ̂."
+      },
+      "N0000000": {
+        "fr": "0",
+        "text": "fə́'é"
+      },
+      "N0000001": {
+        "fr": "1",
+        "text": "shwě"
+      },
+      "N0000002": {
+        "fr": "2",
+        "text": "bàà"
+      },
+      "N0000003": {
+        "fr": "3",
+        "text": "tarà"
+      },
+      "N0000004": {
+        "fr": "4",
+        "text": "nwàà"
+      },
+      "N0000005": {
+        "fr": "5",
+        "text": "tèè"
+      },
+      "N0000006": {
+        "fr": "6",
+        "text": "ntswà"
+      },
+      "N0000007": {
+        "fr": "7",
+        "text": "sùmbu"
+      },
+      "N0000008": {
+        "fr": "8",
+        "text": "fám"
+      },
+      "N0000009": {
+        "fr": "9",
+        "text": "pfú'ù"
+      },
+      "N0000010": {
+        "fr": "10",
+        "text": "ghòm"
+      },
+      "N0000011": {
+        "fr": "11",
+        "text": "ghòm nə shwě"
+      },
+      "N0000012": {
+        "fr": "12",
+        "text": "ghòm nə bàà"
+      },
+      "N0000013": {
+        "fr": "13",
+        "text": "ghòm nə tarà"
+      },
+      "N0000014": {
+        "fr": "14",
+        "text": "ghòm nə nwàà"
+      },
+      "N0000015": {
+        "fr": "15",
+        "text": "ghòm nə tèè"
+      },
+      "N0000016": {
+        "fr": "16",
+        "text": "ghòm nə ntswà"
+      },
+      "N0000017": {
+        "fr": "17",
+        "text": "ghòm nə sùmbu"
+      },
+      "N0000018": {
+        "fr": "18",
+        "text": "ghòm nə fám"
+      },
+      "N0000019": {
+        "fr": "19",
+        "text": "ghòm nə pfú'ù"
+      },
+      "N0000020": {
+        "fr": "20",
+        "text": "bàà ghòm"
+      },
+      "N0000021": {
+        "fr": "21",
+        "text": "bàà ghòm nə shwě"
+      },
+      "N0000022": {
+        "fr": "22",
+        "text": "bàà ghòm nə bàà"
+      },
+      "N0000023": {
+        "fr": "23",
+        "text": "bàà ghòm nə tarà"
+      },
+      "N0000024": {
+        "fr": "24",
+        "text": "fɔ́w gə́ mgbà"
+      },
+      "N0000025": {
+        "fr": "25",
+        "text": "fɔ́w gə́ mgbà na tà"
+      },
+      "N0000026": {
+        "fr": "26",
+        "text": "fɔ́w gə́ mgbà na ŋwɔ̀"
+      },
+      "N0000027": {
+        "fr": "27",
+        "text": "fɔ́w gə́ mgbà na támsà"
+      },
+      "N0000028": {
+        "fr": "28",
+        "text": "fɔ́w gə́ mgbà na fɔ́w"
+      },
+      "N0000029": {
+        "fr": "29",
+        "text": "fɔ́w gə́ mgbà na ntchu"
+      },
+      "N0000030": {
+        "fr": "30",
+        "text": "ntchwa gə́ mgbà"
+      },
+      "N0000031": {
+        "fr": "31",
+        "text": "ntchwa gə́ mgbà na tà"
+      },
+      "N0000032": {
+        "fr": "32",
+        "text": "ntchwa gə́ mgbà na ŋwɔ̀"
+      },
+      "N0000033": {
+        "fr": "33",
+        "text": "ntchwa gə́ mgbà na támsà"
+      },
+      "N0000034": {
+        "fr": "34",
+        "text": "ntchwa gə́ mgbà na fɔ́w"
+      },
+      "N0000035": {
+        "fr": "35",
+        "text": "ntchwa gə́ mgbà na ntchu"
+      },
+      "N0000036": {
+        "fr": "36",
+        "text": "ntchwa gə́ mgbà na mgbà"
+      },
+      "N0000037": {
+        "fr": "37",
+        "text": "ntchwa gə́ mgbà na mgbà na tà"
+      },
+      "N0000038": {
+        "fr": "38",
+        "text": "ntchwa gə́ mgbà na mgbà na ŋwɔ̀"
+      },
+      "N0000039": {
+        "fr": "39",
+        "text": "ntchwa gə́ mgbà na mgbà na támsà"
+      },
+      "N0000040": {
+        "fr": "40",
+        "text": "ntchwa gə́ ŋwɔ̀"
+      },
+      "N0000041": {
+        "fr": "41",
+        "text": "ntchwa gə́ ŋwɔ̀ na tà"
+      },
+      "N0000042": {
+        "fr": "42",
+        "text": "ntchwa gə́ ŋwɔ̀ na ŋwɔ̀"
+      },
+      "N0000043": {
+        "fr": "43",
+        "text": "ntchwa gə́ ŋwɔ̀ na támsà"
+      },
+      "N0000044": {
+        "fr": "44",
+        "text": "ntchwa gə́ ŋwɔ̀ na fɔ́w"
+      },
+      "N0000045": {
+        "fr": "45",
+        "text": "ntchwa gə́ ŋwɔ̀ na ntchu"
+      },
+      "N0000046": {
+        "fr": "46",
+        "text": "ntchwa gə́ ŋwɔ̀ na mgbà"
+      },
+      "N0000047": {
+        "fr": "47",
+        "text": "ntchwa gə́ ŋwɔ̀ na mgbà na tà"
+      },
+      "N0000048": {
+        "fr": "48",
+        "text": "kwɔ́'ntɛ́' nwà'nɛ"
+      },
+      "N0000049": {
+        "fr": "49",
+        "text": "kwɔ́'ntɛ́' nwà'nɛ na pfù'"
+      },
+      "N0000050": {
+        "fr": "50",
+        "text": "tshuom"
+      },
+      "N0000051": {
+        "fr": "51",
+        "text": "tshuom na pfù'"
+      },
+      "N0000052": {
+        "fr": "52",
+        "text": "tshuom na pia"
+      },
+      "N0000053": {
+        "fr": "53",
+        "text": "tshuom na tarɛ"
+      },
+      "N0000054": {
+        "fr": "54",
+        "text": "tshuom na nwà'nɛ"
+      },
+      "N0000055": {
+        "fr": "55",
+        "text": "tshuom na pfú"
+      },
+      "N0000056": {
+        "fr": "56",
+        "text": "tshuom na ntshwa"
+      },
+      "N0000057": {
+        "fr": "57",
+        "text": "tshuom na somba"
+      },
+      "N0000058": {
+        "fr": "58",
+        "text": "tshuom na mafà'"
+      },
+      "N0000059": {
+        "fr": "59",
+        "text": "tshuom na ghʉ'"
+      },
+      "N0000060": {
+        "fr": "60",
+        "text": "tshuom pyɛ"
+      },
+      "N0000061": {
+        "fr": "61",
+        "text": "tshuom pyɛ na pfù'"
+      },
+      "N0000062": {
+        "fr": "62",
+        "text": "tshuom pyɛ na pia"
+      },
+      "N0000063": {
+        "fr": "63",
+        "text": "tshuom pyɛ na tarɛ"
+      },
+      "N0000064": {
+        "fr": "64",
+        "text": "tshuom pyɛ na nwà'nɛ"
+      },
+      "N0000065": {
+        "fr": "65",
+        "text": "tshuom pyɛ na pfú"
+      },
+      "N0000066": {
+        "fr": "66",
+        "text": "tshuom pyɛ na ntshwa"
+      },
+      "N0000067": {
+        "fr": "67",
+        "text": "tshuom pyɛ na somba"
+      },
+      "N0000068": {
+        "fr": "68",
+        "text": "tshuom pyɛ na mafà'"
+      },
+      "N0000069": {
+        "fr": "69",
+        "text": "tshuom pyɛ na ghʉ'"
+      },
+      "N0000070": {
+        "fr": "70",
+        "text": "tshuom pia"
+      },
+      "N0000071": {
+        "fr": "71",
+        "text": "tshuom pia na pfù'"
+      },
+      "N0000072": {
+        "fr": "72",
+        "text": "mgwaa nà nṳ́ pṳ́ wá"
+      },
+      "N0000073": {
+        "fr": "73",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ ntà"
+      },
+      "N0000074": {
+        "fr": "74",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ nyɛ"
+      },
+      "N0000075": {
+        "fr": "75",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ tɔ̀"
+      },
+      "N0000076": {
+        "fr": "76",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ ntshwɛ"
+      },
+      "N0000077": {
+        "fr": "77",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ sṳ̀"
+      },
+      "N0000078": {
+        "fr": "78",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ fám"
+      },
+      "N0000079": {
+        "fr": "79",
+        "text": "mgwaa nà nṳ́ pṳ́ tṳ́ kɔṳ́"
+      },
+      "N0000080": {
+        "fr": "80",
+        "text": "mgwaa nà ntchɔṳ́"
+      },
+      "N0000081": {
+        "fr": "81",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ wá"
+      },
+      "N0000082": {
+        "fr": "82",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ ntà"
+      },
+      "N0000083": {
+        "fr": "83",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ nyɛ"
+      },
+      "N0000084": {
+        "fr": "84",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ tɔ̀"
+      },
+      "N0000085": {
+        "fr": "85",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ ntshwɛ"
+      },
+      "N0000086": {
+        "fr": "86",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ sṳ̀"
+      },
+      "N0000087": {
+        "fr": "87",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ fám"
+      },
+      "N0000088": {
+        "fr": "88",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ tṳ́ kɔṳ́"
+      },
+      "N0000089": {
+        "fr": "89",
+        "text": "mgwaa nà ntchɔṳ́ nà nṳ́ pṳ́ kɔṳ́ nwɔ̌m"
+      },
+      "N0000090": {
+        "fr": "90",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́"
+      },
+      "N0000091": {
+        "fr": "91",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́ nà nṳ́ pṳ́ wá"
+      },
+      "N0000092": {
+        "fr": "92",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́ nà nṳ́ pṳ́ tṳ́ ntà"
+      },
+      "N0000093": {
+        "fr": "93",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́ nà nṳ́ pṳ́ tṳ́ nyɛ"
+      },
+      "N0000094": {
+        "fr": "94",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́ nà nṳ́ pṳ́ tṳ́ tɔ̀"
+      },
+      "N0000095": {
+        "fr": "95",
+        "text": "mgwaa nà ntchɔṳ́ pṳ́ nà nṳ́ pṳ́ tṳ́ ntshwɛ"
+      },
+      "N0000096": {
+        "fr": "96",
+        "text": "ntchwaŋwun nà kùɔpnà gɔm"
+      },
+      "N0000097": {
+        "fr": "97",
+        "text": "ntchwaŋwun nà kùɔpnà gɔm nà mvɔ"
+      },
+      "N0000098": {
+        "fr": "98",
+        "text": "ntchwaŋwun nà kùɔpnà gɔm nà fântù"
+      },
+      "N0000099": {
+        "fr": "99",
+        "text": "ntchwaŋwun nà kùɔpnà gɔm nà kàp"
+      },
+      "N0000100": {
+        "fr": "100",
+        "text": "ntchwaŋwun"
+      },
+      "N0000200": {
+        "fr": "200",
+        "text": "ntchwaŋwun pǔ"
+      },
+      "N0000300": {
+        "fr": "300",
+        "text": "ntchwaŋwun tát"
+      },
+      "N0000400": {
+        "fr": "400",
+        "text": "ntchwaŋwun nyì"
+      },
+      "N0000500": {
+        "fr": "500",
+        "text": "ntchwaŋwun tà"
+      },
+      "N0000600": {
+        "fr": "600",
+        "text": "ntchwaŋwun ntɔm"
+      },
+      "N0000700": {
+        "fr": "700",
+        "text": "ntchwaŋwun səmbi"
+      },
+      "N0000800": {
+        "fr": "800",
+        "text": "ntchwaŋwun fûm"
+      },
+      "N0000900": {
+        "fr": "900",
+        "text": "ntchwaŋwun pfù"
+      },
+      "N0001000": {
+        "fr": "1000",
+        "text": "tchɔm"
+      },
+      "N0002000": {
+        "fr": "2000",
+        "text": "tchɔm pǔ"
+      },
+      "N0005000": {
+        "fr": "5000",
+        "text": "tchɔm tà"
+      },
+      "N0010000": {
+        "fr": "10000",
+        "text": "ntchwaŋwun tchɔm"
+      },
+      "N0100000": {
+        "fr": "100000",
+        "text": "tchɔm ntchwaŋwun"
+      },
+      "N1000000": {
+        "fr": "1000000",
+        "text": "miliɔ̃"
+      },
+      "N_VIRGULE": {
+        "fr": "virgule",
+        "text": "ntchwì"
+      },
+      "JOUR1": {
+        "fr": "lundi",
+        "text": "móde",
+        "source": "https://huggingface.co/datasets/stfotso/french-ghomala-bandjoun",
+        "license": "Apache-2.0 (dataset card)"
+      },
+      "JOUR5": {
+        "fr": "vendredi",
+        "text": "frâdê",
+        "source": "https://huggingface.co/datasets/stfotso/french-ghomala-bandjoun",
+        "license": "Apache-2.0 (dataset card)"
+      },
+      "JOUR6": {
+        "fr": "samedi",
+        "text": "sásàdê",
+        "source": "https://huggingface.co/datasets/stfotso/french-ghomala-bandjoun",
+        "license": "Apache-2.0 (dataset card)"
+      },
+      "JOUR7": {
+        "fr": "dimanche",
+        "text": "sóde",
+        "source": "https://huggingface.co/datasets/stfotso/french-ghomala-bandjoun",
+        "license": "Apache-2.0 (dataset card)"
+      },
+      "TPS4": {
+        "fr": "ce matin",
+        "text": "tsɛ́ŋ lě"
+      },
+      "TPS5": {
+        "fr": "ce soir",
+        "text": "fǎŋ lě"
+      },
+      "TPS6": {
+        "fr": "heures",
+        "text": "wà"
+      },
+      "G001": {
+        "fr": "compte",
+        "text": "kɔ́ɔ̀"
+      },
+      "G002": {
+        "fr": "compte courant",
+        "text": "kɔ́ɔ̀ gɔ́ɔ́ ntswě"
+      },
+      "G003": {
+        "fr": "compte d'épargne",
+        "text": "kɔ́ɔ̀ pià"
+      },
+      "G004": {
+        "fr": "solde",
+        "text": "ngàŋ"
+      },
+      "G005": {
+        "fr": "solde disponible",
+        "text": "ngàŋ pǔn"
+      },
+      "G006": {
+        "fr": "dépôt",
+        "text": "fɔ́ɔ"
+      },
+      "G007": {
+        "fr": "retrait",
+        "text": "bìɛ"
+      },
+      "G008": {
+        "fr": "virement",
+        "text": "tɔ́ŋ"
+      },
+      "G009": {
+        "fr": "transfert",
+        "text": "tɔ́ŋ"
+      },
+      "G010": {
+        "fr": "envoi d'argent",
+        "text": "tɔ́ŋ ngɔ́ɔ"
+      },
+      "G011": {
+        "fr": "réception d'argent",
+        "text": "chǎŋ ngɔ́ɔ"
+      },
+      "G012": {
+        "fr": "paiement",
+        "text": "fɔ́ɔ̀"
+      },
+      "G013": {
+        "fr": "facture",
+        "text": "pàpâ"
+      },
+      "G014": {
+        "fr": "reçu",
+        "text": "mbǎŋ"
+      },
+      "G015": {
+        "fr": "relevé",
+        "text": "lìsə̀"
+      },
+      "G016": {
+        "fr": "historique",
+        "text": "lìsə̀ piɔ́"
+      },
+      "G017": {
+        "fr": "opération",
+        "text": "tchɔ́m"
+      },
+      "G018": {
+        "fr": "transaction",
+        "text": "tchɔ́m"
+      },
+      "G019": {
+        "fr": "référence de transaction",
+        "text": "nɔ́ɔ̀ tchɔ́m"
+      },
+      "G020": {
+        "fr": "bénéficiaire",
+        "text": "pə́ chǎŋ"
+      },
+      "G021": {
+        "fr": "expéditeur",
+        "text": "pə́ tɔ́ŋ"
+      },
+      "G022": {
+        "fr": "débit",
+        "text": "shwɔ́ nkap"
+      },
+      "G023": {
+        "fr": "crédit (sur le compte)",
+        "text": "tsɔ́ nkap"
+      },
+      "G025": {
+        "fr": "plafond",
+        "text": "tèŋ"
+      },
+      "G026": {
+        "fr": "limite journalière",
+        "text": "tèŋ ŋkaŋ"
+      },
+      "G027": {
+        "fr": "franc CFA",
+        "text": "Frǎŋ"
+      },
+      "G028": {
+        "fr": "espèces",
+        "text": "nzɔ́"
+      },
+      "G030": {
+        "fr": "carte bancaire",
+        "text": "kàt"
+      },
+      "G033": {
+        "fr": "agence",
+        "text": "ŋgə̀b nə́ŋ"
+      },
+      "G034": {
+        "fr": "agent",
+        "text": "nkap"
+      },
+      "G038": {
+        "fr": "numéro de compte",
+        "text": "nzén nkap"
+      },
+      "G039": {
+        "fr": "numéro de téléphone",
+        "text": "nzén tɛlɛfon"
+      },
+      "G040": {
+        "fr": "ouverture de compte",
+        "text": "siŋ nkap"
+      },
+      "G041": {
+        "fr": "clôture de compte",
+        "text": "tâp nkap"
+      },
+      "G042": {
+        "fr": "pièce d'identité",
+        "text": "kàt a kə́ fɔn"
+      },
+      "G046": {
+        "fr": "frais",
+        "text": "fɔ̀"
+      },
+      "G047": {
+        "fr": "commission",
+        "text": "fɔ̀ tà mɔ́"
+      },
+      "G048": {
+        "fr": "frais de tenue de compte",
+        "text": "fɔ̀ pɔ́ lɑ́ŋ kɔ́ɔ̃"
+      },
+      "G049": {
+        "fr": "frais de transfert",
+        "text": "fɔ̀ nǔ tɔ́m"
+      },
+      "G050": {
+        "fr": "frais de retrait",
+        "text": "fɔ̀ nǔ lǒ"
+      },
+      "G051": {
+        "fr": "taxe",
+        "text": "tásì"
+      },
+      "G052": {
+        "fr": "gratuit",
+        "text": "gɛ́nzì"
+      },
+      "G053": {
+        "fr": "tarif",
+        "text": "tálì"
+      },
+      "G054": {
+        "fr": "barème",
+        "text": "ndàʔ shwo"
+      },
+      "G055": {
+        "fr": "montant total",
+        "text": "nkɑ́ŋ bɔ́ŋ"
+      },
+      "G056": {
+        "fr": "code secret (PIN)",
+        "text": "kótɛ̀ (PIN)"
+      },
+      "G057": {
+        "fr": "code de validation",
+        "text": "kótɛ̀ nǔ n kùè"
+      },
+      "G058": {
+        "fr": "mot de passe",
+        "text": "mɔ̀ nkám"
+      },
+      "G059": {
+        "fr": "arnaque",
+        "text": "ndé"
+      },
+      "G060": {
+        "fr": "fraude",
+        "text": "ndé"
+      },
+      "G061": {
+        "fr": "faux message",
+        "text": "nkɑ́g ntɛ̀"
+      },
+      "G062": {
+        "fr": "faux agent",
+        "text": "ndɔ̀g mɔ̀ n sǐ"
+      },
+      "G063": {
+        "fr": "ne jamais communiquer",
+        "text": "wà hú gɔ́ wà sǐ fɔ́"
+      },
+      "G064": {
+        "fr": "compte bloqué",
+        "text": "kɔ́ɔ̃ mɔ́ ngé"
+      },
+      "G065": {
+        "fr": "carte bloquée",
+        "text": "kátɛ̀ mɔ́ ngé"
+      },
+      "G066": {
+        "fr": "carte volée",
+        "text": "kátɛ̀ mɔ́ bɔ̀"
+      },
+      "G067": {
+        "fr": "opposition",
+        "text": "m̀pɔ́ŋ"
+      },
+      "G068": {
+        "fr": "perte (carte ou téléphone)",
+        "text": "wɔ̀ fǔ"
+      },
+      "G069": {
+        "fr": "sécurité",
+        "text": "nkúg bɔ́ŋ"
+      },
+      "G070": {
+        "fr": "vérification",
+        "text": "ntóʼ"
+      },
+      "G071": {
+        "fr": "identifiant",
+        "text": "ŋgə̀ntə́g"
+      },
+      "G072": {
+        "fr": "carte SIM",
+        "text": "kàt sìmtì"
+      },
+      "G073": {
+        "fr": "connexion suspecte",
+        "text": "ŋgòŋ njə̂ŋ"
+      },
+      "G074": {
+        "fr": "appeler immédiatement",
+        "text": "kɔ́ sɔ́ɔ́m"
+      },
+      "G075": {
+        "fr": "attention",
+        "text": "pyɛ́ɛ́"
+      },
+      "G076": {
+        "fr": "prêt",
+        "text": "nkɑ́g"
+      },
+      "G077": {
+        "fr": "microcrédit",
+        "text": "nkɑ́g fúŋ"
+      },
+      "G078": {
+        "fr": "emprunt",
+        "text": "shwìì nkɑ́g"
+      },
+      "G079": {
+        "fr": "échéance",
+        "text": "tèb tàg"
+      },
+      "G080": {
+        "fr": "mensualité",
+        "text": "ntə́b"
+      },
+      "G081": {
+        "fr": "remboursement",
+        "text": "pàp mbɔ́m"
+      },
+      "G082": {
+        "fr": "taux d'intérêt",
+        "text": "nkɑ́g sɑ́m"
+      },
+      "G083": {
+        "fr": "intérêt",
+        "text": "tèb nkɑ́g"
+      },
+      "G084": {
+        "fr": "pénalité",
+        "text": "nkɑ́g m̀bɑ́m"
+      },
+      "G085": {
+        "fr": "retard de paiement",
+        "text": "nkɑ́g fə̌n"
+      },
+      "G086": {
+        "fr": "garantie",
+        "text": "nkɑ́g ntsə̌m"
+      },
+      "G087": {
+        "fr": "caution",
+        "text": "nkɑ́g kàɑ́"
+      },
+      "G088": {
+        "fr": "apport",
+        "text": "ntchùù"
+      },
+      "G089": {
+        "fr": "durée du prêt",
+        "text": "tèŋ kà'à"
+      },
+      "G090": {
+        "fr": "capital",
+        "text": "sîkà'à"
+      },
+      "G091": {
+        "fr": "dette",
+        "text": "ngù'à"
+      },
+      "G092": {
+        "fr": "reste à payer",
+        "text": "sî wù fút"
+      },
+      "G093": {
+        "fr": "épargne",
+        "text": "nkɑ"
+      },
+      "G094": {
+        "fr": "épargne bloquée",
+        "text": "ndɔŋ nkap kàkwà"
+      },
+      "G095": {
+        "fr": "dépôt à terme",
+        "text": "nkap kàkwà mɛ gṍ nyɛ"
+      },
+      "G096": {
+        "fr": "assurance",
+        "text": "nsɔn mɛncuɛt"
+      },
+      "G097": {
+        "fr": "prime d'assurance",
+        "text": "nkap nsɔn mɛncuɛt"
+      },
+      "G098": {
+        "fr": "sinistre",
+        "text": "mɛncuɛt"
+      },
+      "G099": {
+        "fr": "couverture",
+        "text": "mên yàp"
+      },
+      "G100": {
+        "fr": "tontine",
+        "text": "dɔŋ"
+      },
+      "G101": {
+        "fr": "accordé",
+        "text": "tà nnyɛ"
+      },
+      "G102": {
+        "fr": "refusé",
+        "text": "tè tà nnyɛ"
+      },
+      "G103": {
+        "fr": "portefeuille mobile",
+        "text": "nkɔŋ nkap mɔbél"
+      },
+      "G104": {
+        "fr": "mobile money",
+        "text": "mɔbél moni"
+      },
+      "G105": {
+        "fr": "agent mobile money",
+        "text": "ajã mɔbél moni"
+      },
+      "G106": {
+        "fr": "dépôt chez l'agent",
+        "text": "kwo nkap tɛ ajã"
+      },
+      "G107": {
+        "fr": "retrait chez l'agent",
+        "text": "wé nkap tɛ ajã"
+      },
+      "G108": {
+        "fr": "crédit de communication",
+        "text": "kɛlét tèlɛfɔn"
+      },
+      "G109": {
+        "fr": "forfait internet",
+        "text": "fɔfèt intɛrnèt"
+      },
+      "G110": {
+        "fr": "USSD (code étoile dièse)",
+        "text": "kɔd USSD"
+      },
+      "G111": {
+        "fr": "SMS",
+        "text": "mesaje"
+      },
+      "G112": {
+        "fr": "application",
+        "text": "aplikasio"
+      },
+      "G113": {
+        "fr": "réseau",
+        "text": "rézo"
+      },
+      "G114": {
+        "fr": "hors connexion",
+        "text": "tè gye n nkontè"
+      },
+      "G115": {
+        "fr": "recharge",
+        "text": "sɛt"
+      },
+      "G116": {
+        "fr": "réclamation",
+        "text": "nkwà mɛnko"
+      },
+      "G117": {
+        "fr": "médiation",
+        "text": "nzïp mɛnko"
+      },
+      "G118": {
+        "fr": "service client",
+        "text": "shwéen shwépá"
+      },
+      "G119": {
+        "fr": "rendez-vous",
+        "text": "nyàm"
+      },
+      "G120": {
+        "fr": "horaires",
+        "text": "tíndɔ̌g"
+      },
+      "G121": {
+        "fr": "ouvert",
+        "text": "fá"
+      },
+      "G122": {
+        "fr": "fermé",
+        "text": "shí"
+      },
+      "G123": {
+        "fr": "jour férié",
+        "text": "tsí mbeu"
+      },
+      "G124": {
+        "fr": "urgent",
+        "text": "kà"
+      },
+      "G125": {
+        "fr": "aide",
+        "text": "gàan"
+      },
+      "G126": {
+        "fr": "erreur",
+        "text": "nzàm"
+      },
+      "G127": {
+        "fr": "échec",
+        "text": "tsɛ̌"
+      },
+      "G128": {
+        "fr": "réussite",
+        "text": "pə̌"
+      },
+      "G129": {
+        "fr": "annuler",
+        "text": "fwoom"
+      },
+      "G130": {
+        "fr": "confirmer",
+        "text": "tóo"
+      },
+      "G131": {
+        "fr": "valider",
+        "text": "tóo"
+      },
+      "G132": {
+        "fr": "retour",
+        "text": "shwé"
+      },
+      "G133": {
+        "fr": "continuer",
+        "text": "pyɛ"
+      },
+      "G134": {
+        "fr": "suivant",
+        "text": "mfié"
+      },
+      "G135": {
+        "fr": "oui",
+        "text": "yéé"
+      },
+      "G136": {
+        "fr": "non",
+        "text": "nɔ̌g"
+      },
+      "G137": {
+        "fr": "merci",
+        "text": "mɛsi"
+      },
+      "G138": {
+        "fr": "bonjour",
+        "text": "Ǒ tí lə́",
+        "source": "https://huggingface.co/datasets/stfotso/french-ghomala-bandjoun",
+        "license": "Apache-2.0 (dataset card)"
+      },
+      "G139": {
+        "fr": "au revoir",
+        "text": "kɛ"
+      },
+      "G140": {
+        "fr": "s'il vous plaît",
+        "text": "ndɔ̌g"
+      },
+      "G141": {
+        "fr": "réessayer",
+        "text": "kwéy shwɛ"
+      },
+      "G142": {
+        "fr": "nombre",
+        "text": "tsè"
+      },
+      "G143": {
+        "fr": "montant",
+        "text": "ŋka'"
+      },
+      "G144": {
+        "fr": "pourcentage",
+        "text": "ntchɛ́n"
+      },
+      "G145": {
+        "fr": "date",
+        "text": "ndò"
+      },
+      "G146": {
+        "fr": "heure",
+        "text": "wà"
+      },
+      "G147": {
+        "fr": "mois",
+        "text": "mò'gò"
+      },
+      "G148": {
+        "fr": "année",
+        "text": "ngù"
+      },
+      "G149": {
+        "fr": "aujourd'hui",
+        "text": "ndò nɛ̀"
+      },
+      "G150": {
+        "fr": "demain",
+        "text": "njà"
+      },
+      "G151": {
+        "fr": "hier",
+        "text": "tsɔ̀"
+      },
+      "G152": {
+        "fr": "avant le",
+        "text": "mbɔ́ m̀pà"
+      },
+      "G153": {
+        "fr": "après le",
+        "text": "m̀pà m̀vɔ́"
+      },
+      "G154": {
+        "fr": "chaque mois",
+        "text": "ngà gṹ"
+      },
+      "G155": {
+        "fr": "par jour",
+        "text": "kɛ́ lɔ́"
+      },
+      "M001": {
+        "fr": "Retrait de {MONTANT_1} effectué le {DATE_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Wo gòo {MONTANT_1} tà {DATE_1}. Gÿà: {MONTANT_2}. Sòlì pyɛ̀: {MONTANT_3}."
+      },
+      "M002": {
+        "fr": "Dépôt de {MONTANT_1} reçu le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Wo zì' {MONTANT_1} tà {DATE_1}. Sòlì pyɛ̀: {MONTANT_2}."
+      },
+      "M003": {
+        "fr": "Votre solde est de {MONTANT_1}.",
+        "text": "Sòlì wò gɛ̀ {MONTANT_1}."
+      },
+      "M004": {
+        "fr": "Vous avez reçu {MONTANT_1} de {NOM_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Wɔ́ cɔ́ {MONTANT_1} fɔ́ {NOM_1} ntɛ {DATE_1}. Gɔ̀mtó fə̀ : {MONTANT_2}."
+      },
+      "M005": {
+        "fr": "Vous avez envoyé {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Wo tà' {MONTANT_1} ghɛ̀ nɛ̀ {NOM_1}. Gÿà: {MONTANT_2}. Sòlì pyɛ̀: {MONTANT_3}."
+      },
+      "M006": {
+        "fr": "Confirmez l'envoi de {MONTANT_1} à {NOM_1}. Frais : {MONTANT_2}. Tapez 1 pour confirmer, 2 pour annuler.",
+        "text": "Yɛ́gɛ́ kà {MONTANT_1} gɔ́ {NOM_1}. Fwà : {MONTANT_2}. Pì 1 ntɛ yɛ́gɛ́, 2 ntɛ kɛŋ."
+      },
+      "M007": {
+        "fr": "Transfert refusé : solde insuffisant. Votre solde est de {MONTANT_1}.",
+        "text": "Wà tà' gɔ̀: sòlì gɛ̀ mɛ̀ nà. Sòlì wò gɛ̀ {MONTANT_1}."
+      },
+      "M008": {
+        "fr": "Transfert annulé. Aucun montant n'a été débité.",
+        "text": "Wà tà' wɛ̀. Mɛ̀ cɛ́ ŋka' gòo."
+      },
+      "M009": {
+        "fr": "Votre code secret a été modifié. Si ce n'est pas vous, appelez immédiatement votre fournisseur.",
+        "text": "Kɔ̀dò wò cɛ́ mɛ̀ nà. Ɛ̀ gɛ̀ mɛ̀ wò, kâ sà' pɔ̀ gɛ̀ gÿà wò."
+      },
+      "M010": {
+        "fr": "Ne communiquez jamais votre code secret. Personne de la banque ou de l'opérateur ne vous le demandera.",
+        "text": "Kâ nɔ́ kɔ̀dò wò. Mɛ̀ mɛ̀ pɔ̀ pɔ̀ bǎŋkì gɛ̀ gÿà wò bɛ́ nɔ́ ɛ̀."
+      },
+      "M011": {
+        "fr": "Votre code de validation est affiché à l'écran. Ne le donnez à personne.",
+        "text": "Kɔ̀dò wò gɛ̀ kɛ̀ nɛ̀ scàŋ. Kâ nɔ́ pɔ̀."
+      },
+      "M012": {
+        "fr": "Attention arnaque : personne ne vous demandera votre code par message ou par appel.",
+        "text": "Kpâ nkap : kà ntâ sɔ́ mɔ́ nù pɔ̂ kɔ́ mɛ́ nkap fɔ́ pì gɔ́ gə̀ mɛ́ kpà."
+      },
+      "M013": {
+        "fr": "Tentative de connexion suspecte détectée sur votre compte. Votre compte est bloqué par sécurité.",
+        "text": "Pɔ̀ yɛ̀ pì' mbà' nɛ̀ kɔ̀ntì wò. Pɔ̀ kà' kɔ̀ntì wò nɛ̀ gÿà."
+      },
+      "M014": {
+        "fr": "Votre carte a été bloquée à votre demande.",
+        "text": "Wɔ́ kaŋ kàte wɛ̀ wɛ́ mɛ́ pɛ́' nka'a gɛ́."
+      },
+      "M015": {
+        "fr": "Paiement de {MONTANT_1} chez {LIEU_1} le {DATE_1}. Nouveau solde : {MONTANT_2}.",
+        "text": "Ntsɛ́ {MONTANT_1} wò {LIEU_1} tsɛ {DATE_1}. Ndɔ́' nzhwì : {MONTANT_2}."
+      },
+      "M016": {
+        "fr": "Facture {REF_1} payée : {MONTANT_1}. Merci.",
+        "text": "Nkaŋ {REF_1} ntsɛ́ : {MONTANT_1}. Mɛ́ na'a."
+      },
+      "M017": {
+        "fr": "Achat de crédit de communication de {MONTANT_1} effectué. Nouveau solde : {MONTANT_2}.",
+        "text": "Mɛ́ gə gə̀ {MONTANT_1} ŋgɔ́. Ndɔ́' nzhwì : {MONTANT_2}."
+      },
+      "M018": {
+        "fr": "Virement de {MONTANT_1} reçu sur votre compte le {DATE_1}.",
+        "text": "Mə̀ {MONTANT_1} ntɔ̀' wò kɔ̀ pə̀ wɛ̀ tsɛ {DATE_1}."
+      },
+      "M019": {
+        "fr": "Virement de {MONTANT_1} effectué vers {NOM_1} le {DATE_1}. Frais : {MONTANT_2}.",
+        "text": "Mə̀ {MONTANT_1} ntɔ̀' wò {NOM_1} tsɛ {DATE_1}. Fwé : {MONTANT_2}."
+      },
+      "M020": {
+        "fr": "Votre relevé du mois est disponible. Solde : {MONTANT_1}.",
+        "text": "Kàte wɛ̀ ŋwà' pɛ́' pɛ̀ gɛ́. Ndɔ́' nzhwì : {MONTANT_1}."
+      },
+      "M021": {
+        "fr": "Les frais de tenue de compte de {MONTANT_1} ont été prélevés le {DATE_1}.",
+        "text": "Fwé mɛ́ kɔ̀ pə̀ {MONTANT_1} ka'a tsɛ {DATE_1}."
+      },
+      "M022": {
+        "fr": "Votre prêt de {MONTANT_1} est accordé. Taux : {TAUX_1}. Première échéance le {DATE_1}.",
+        "text": "Mbà' wɛ̀ {MONTANT_1} ka'a wɔ̀. Tɔ́' : {TAUX_1}. Nka'a ŋwa'a tsɛ {DATE_1}."
+      },
+      "M023": {
+        "fr": "Échéance de {MONTANT_1} à payer avant le {DATE_1}. Après cette date, une pénalité de {MONTANT_2} sera appliquée.",
+        "text": "Nfə́ {MONTANT_1} mɛ̀ wà gwə̀ nka mɛ́ tà {DATE_1}. Nta fə́ gə̀ mɛ́ fɔ́, fə̀ yà gwə́ {MONTANT_2} fə̀."
+      },
+      "M024": {
+        "fr": "Remboursement de {MONTANT_1} reçu. Il vous reste {MONTANT_2} à rembourser.",
+        "text": "Mə̀ {MONTANT_1} ntɔ̀' nzhwì. Wɛ̀ pɛ́' {MONTANT_2} nə́ nywɔ́."
+      },
+      "M025": {
+        "fr": "Votre demande de prêt a été refusée.",
+        "text": "Mbà' wɛ̀ ka'a kàte gɛ́."
+      },
+      "M026": {
+        "fr": "Intérêts de {MONTANT_1} crédités sur votre compte d'épargne au taux de {TAUX_1}.",
+        "text": "Ntɔ́' {MONTANT_1} ntsɛ́ wò kɔ̀ wɛ̀ ŋwa'a tsɛ {TAUX_1}."
+      },
+      "M027": {
+        "fr": "Votre compte est à découvert de {MONTANT_1}. Merci de le régulariser.",
+        "text": "Kɔ̀ wɛ̀ nzhwì {MONTANT_1}. Nɛ́ ngwɛ́ nzhwì."
+      },
+      "M028": {
+        "fr": "Rappel : paiement de votre prime d'assurance de {MONTANT_1} avant le {DATE_1}.",
+        "text": "Nkaŋ : ntsɛ́ pə̀ mɛ́ {MONTANT_1} yə̀ tsɛ {DATE_1}."
+      },
+      "M029": {
+        "fr": "Votre assurance est active jusqu'au {DATE_1}.",
+        "text": "Mɛ́ pə̀ mɛ̀ wɛ̀ ntɔ̀' tsɛ {DATE_1}."
+      },
+      "M030": {
+        "fr": "Retrait de {MONTANT_1} chez l'agent {NOM_1}. Frais : {MONTANT_2}. Nouveau solde : {MONTANT_3}.",
+        "text": "Nzhwì {MONTANT_1} wò agan {NOM_1}. Fwé : {MONTANT_2}. Ndɔ́' nzhwì : {MONTANT_3}."
+      },
+      "M031": {
+        "fr": "Bienvenue. 1. Solde 2. Envoyer de l'argent 3. Retrait 4. Payer une facture 5. Aide",
+        "text": "Mɛ́ pɛ́' gɛ́. 1. Ndɔ́' nzhwì 2. Ntɔ̀' nzhwì 3. Nzhwì 4. Ntsɛ́ nkaŋ 5. Nkaŋ"
+      },
+      "M032": {
+        "fr": "Entrez le numéro du bénéficiaire.",
+        "text": "Ntɛ́ ŋka'a pə̀."
+      },
+      "M033": {
+        "fr": "Entrez le montant à envoyer.",
+        "text": "Ntɛ́ nzhwì yə́ ntɔ̀'."
+      },
+      "M034": {
+        "fr": "Entrez votre code secret.",
+        "text": "Ntɛ́ kɔ̀ wɛ̀ yə́ mɛ́."
+      },
+      "M035": {
+        "fr": "Code secret incorrect. Réessayez.",
+        "text": "Kɔ̀ wɛ̀ ka'a pə̀ gɛ́. Nkap nzhwì."
+      },
+      "M036": {
+        "fr": "Opération réussie.",
+        "text": "Mɛ́ gə pɛ́'."
+      },
+      "M037": {
+        "fr": "Opération échouée. Veuillez réessayer plus tard.",
+        "text": "Mɛ́ ka'a pɛ́' gɛ́. Nkap pə́ nka'a."
+      },
+      "M038": {
+        "fr": "Service momentanément indisponible.",
+        "text": "Mɛ́ ka'a pə̀ yə́ wò gɛ́."
+      },
+      "M063": {
+        "fr": "Pour toute question, appelez le service client au {TEL_1}.",
+        "text": "Nè nkap sɔ̀ɔ́, kàgɔ̀ kɛ́ sàrvìsi klǐnt fɔ̀ {TEL_1}."
+      },
+      "M064": {
+        "fr": "Promotion : ouvrez un compte épargne et recevez un taux de {TAUX_1}.",
+        "text": "Promoshyɔŋ: fʉ̌ kɔ́mt spɛ́ŋ si nyɛ̌ kâ fɛ́ tɔ̂ {TAUX_1}."
+      },
+      "P073": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Wò shī yɔ́ kɔ̀ntsɛ̂?"
+      },
+      "P074": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Sáŋ mɔ̂, wó sǐ."
+      },
+      "P075": {
+        "fr": "Voulez-vous que je répète ?",
+        "text": "Wò shī yɔ́ kyɛ̀ nɛ́ m gáŋ-ŋ́?"
+      },
+      "P076": {
+        "fr": "Je vais vous expliquer lentement.",
+        "text": "Ḿ gáŋ-ɔ́ m̀pà wò pə́ lɔ́ɔlɔ."
+      },
+      "P077": {
+        "fr": "Avez-vous compris ?",
+        "text": "Wò zɔ́ŋ?"
+      },
+      "P078": {
+        "fr": "Votre réclamation est enregistrée.",
+        "text": "M̀bàŋ kɔ̀ntsɛ̂ wò gá ḿ bɔ́ m̀bà"
+      },
+      "P079": {
+        "fr": "Votre rendez-vous est confirmé.",
+        "text": "M̀bàŋ wò gá ḿ bɔ́ m̀bà"
+      },
+      "P080": {
+        "fr": "L'agence est ouverte de huit heures à dix-sept heures.",
+        "text": "Agã̂ gá gù ḿ pyɛ̀ nə̂ fɔɔn nù ḿ shɛ̀ págə́ nù fɔɔn."
+      },
+      "P081": {
+        "fr": "Quelqu'un vous a appelé pour un gain ? C'est une arnaque.",
+        "text": "Pɔ̂ gá nté wò nə̂ ḿŋwaŋ? Yɛ́ shī kàp"
+      },
+      "P082": {
+        "fr": "Vous n'avez rien gagné. Ne donnez pas votre code.",
+        "text": "Wò gá pyɛ́ kàp nə̂ yɛ̀. Ká tàŋ kòd wò."
+      },
+      "P083": {
+        "fr": "Un faux agent vous demande de l'argent ? Ne payez pas.",
+        "text": "M̀bɔ̀ɔ m̀pɔ̂ pə́ ntó kɔ́ kàp? Ká pyɛ́ kàp."
+      },
+      "P084": {
+        "fr": "Ne cliquez pas sur un lien reçu par message.",
+        "text": "Ká kàk m̀lìŋ ḿ m̀bɛ̀ m̀bà pə̂ m̀pù."
+      },
+      "P085": {
+        "fr": "Ne prêtez pas votre carte ni votre téléphone.",
+        "text": "Ká lɔ́ kàd wò m̀pɛ̂ tɛ̂lɛfɔɔn wò."
+      },
+      "P086": {
+        "fr": "En cas de doute, appelez le numéro officiel de votre banque.",
+        "text": "Nə̂ ḿnyɛ̀ ntsɛ̂, nté fɔɔn ḿ bã̂ŋ wò."
+      },
+      "P087": {
+        "fr": "Votre banque ne vous demande jamais votre code secret par message.",
+        "text": "Bã̂ŋ wò gá ntó kòd sã̂ kɔ̂ nə̂ m̀bɛ̀."
+      },
+      "P088": {
+        "fr": "Ne partagez jamais votre code, même avec un ami.",
+        "text": "Ká fã̂ kòd wò, pə́ pɔ̂ shī ḿvɔɔ."
+      },
+      "P089": {
+        "fr": "Si vous avez perdu votre carte, appelez tout de suite.",
+        "text": "Nə̂ wò gá fɔɔ kàd wò, nté fɔɔn ntsɛ̂tsɛ̂."
+      },
+      "P090": {
+        "fr": "Si votre téléphone est volé, bloquez votre compte.",
+        "text": "Nə̂ tɛ̂lɛfɔɔn wò gá fɔɔ, pù kɔ̀ntsɛ̂ wò."
+      },
+      "P095": {
+        "fr": "S'il vous plaît.",
+        "text": "Wó sǐ."
+      },
+      "P096": {
+        "fr": "Un instant, s'il vous plaît.",
+        "text": "M̀və̂n mə̂, wó sǐ."
+      },
+      "M039": {
+        "fr": "Merci d'avoir utilisé nos services.",
+        "text": "Ntee mɛ sà lě."
+      },
+      "M040": {
+        "fr": "Votre numéro {TEL_1} est enregistré.",
+        "text": "Nkom tɛ́ {TEL_1} kà ntswɛ́."
+      },
+      "M041": {
+        "fr": "Envoi à {TEL_1} : {MONTANT_1}. Frais : {MONTANT_2}. 1. Confirmer 2. Annuler",
+        "text": "Mèŋ à {TEL_1} : {MONTANT_1}. Ngwoŋ : {MONTANT_2}. 1. Mɛ sà 2. Kpá"
+      },
+      "M042": {
+        "fr": "Insérez votre carte.",
+        "text": "Cɔ̀ nkhà kà tɛ́."
+      },
+      "M043": {
+        "fr": "Choisissez votre langue.",
+        "text": "Tchàp lě ŋwa."
+      },
+      "M044": {
+        "fr": "Entrez votre code secret. Cachez le clavier avec votre main.",
+        "text": "Pà kàt sék. Fɔ̌ pǎ sɔ́ kàt."
+      },
+      "M045": {
+        "fr": "Choisissez le montant à retirer.",
+        "text": "Tchàp mɔ́ŋ mɛ́ nka."
+      },
+      "M046": {
+        "fr": "Retirez votre argent.",
+        "text": "Nka mɔ́ŋ."
+      },
+      "M047": {
+        "fr": "Reprenez votre carte.",
+        "text": "Kɛ̀ nkhà kà."
+      },
+      "M048": {
+        "fr": "Voulez-vous un reçu ?",
+        "text": "Wu tɛ́ bǎ tɔ́ tɔ́?"
+      },
+      "M049": {
+        "fr": "Retrait de {MONTANT_1}. Frais : {MONTANT_2}. Appuyez sur Valider pour confirmer.",
+        "text": "Nka mɛ {MONTANT_1}. Ngwoŋ : {MONTANT_2}. Ní sà nsi mɛ sà."
+      },
+      "M050": {
+        "fr": "Votre solde est de {MONTANT_1}. Appuyez sur Retour pour continuer.",
+        "text": "Mɔ́ŋ kǎ {MONTANT_1}. Ní sà nsi mɛ kà."
+      },
+      "M051": {
+        "fr": "Opération impossible : le distributeur n'a plus de billets.",
+        "text": "Mɛ̀ nji lě : nkhà tɛ́ mɔ́ŋ."
+      },
+      "M052": {
+        "fr": "Votre carte est retenue. Contactez votre banque.",
+        "text": "Nkhà kǎ wà tɛ́. Ntsà nshwɛ́."
+      },
+      "M053": {
+        "fr": "Bonjour, comment puis-je vous aider ?",
+        "text": "Sɔ̌, mɛ pǎ mɛ lɔ́?"
+      },
+      "M054": {
+        "fr": "Veuillez présenter votre pièce d'identité.",
+        "text": "Ní pǎ nshwɛ́ kà."
+      },
+      "M055": {
+        "fr": "Voulez-vous ouvrir un compte ?",
+        "text": "Wu wà sɔ́ mɔ́ŋ?"
+      },
+      "M056": {
+        "fr": "Les frais d'ouverture de compte sont de {MONTANT_1}.",
+        "text": "Ngwoŋ mɔ́ŋ mɛ́ sɔ́ bǎ {MONTANT_1}."
+      },
+      "M057": {
+        "fr": "Signez ici, s'il vous plaît.",
+        "text": "Mɛ ntsà lě, nte."
+      },
+      "M058": {
+        "fr": "Votre réclamation est enregistrée. Référence : {REF_1}.",
+        "text": "Nka kà kà ntswɛ́. Kɛfə̂ : {REF_1}."
+      },
+      "M059": {
+        "fr": "L'agence est ouverte de {HEURE_1} à {HEURE_2}.",
+        "text": "Kə̂ mɛ ŋwɔ̌ {HEURE_1} kà {HEURE_2}."
+      },
+      "M060": {
+        "fr": "Votre rendez-vous est confirmé le {DATE_1} à {HEURE_1}.",
+        "text": "Nkhu kà kà ntswɛ́ {DATE_1} kà {HEURE_1}."
+      },
+      "M061": {
+        "fr": "Téléchargez notre application pour consulter votre compte à tout moment.",
+        "text": "Cɔ̀ ntswɛ́ mɔ́ŋ mɛ́ pǎ mɛ kà."
+      },
+      "M062": {
+        "fr": "Nos agences sont fermées les jours fériés.",
+        "text": "Kə̂ mɛ kà nkwɛ̂ mɛ kà."
+      }
+    }
+  }
+}
